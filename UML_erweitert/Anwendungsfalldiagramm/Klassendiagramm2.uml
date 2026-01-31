@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_0jorICHaEfC6Ep4ugyhYlg" name="Anwendungsdiagramm2">
+  <ownedComment xmi:type="uml:Comment" xmi:id="_LR3EoCHdEfC6Ep4ugyhYlg">
+    <body>Condition: Erfolg bei speicherung&#xD;
+extension point:Teilnahme</body>
+  </ownedComment>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_0n4R8CHaEfC6Ep4ugyhYlg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_8XqysCHbEfC6Ep4ugyhYlg" name="Gast">
+    <generalization xmi:type="uml:Generalization" xmi:id="_3yDdACHcEfC6Ep4ugyhYlg" general="_K7V3gCHcEfC6Ep4ugyhYlg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_K7V3gCHcEfC6Ep4ugyhYlg" name="Teilnahme bestätigt">
+    <include xmi:type="uml:Include" xmi:id="_QkB-UCHcEfC6Ep4ugyhYlg" addition="_M-QKcCHcEfC6Ep4ugyhYlg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_M-QKcCHcEfC6Ep4ugyhYlg" name="JSON-Daten an Server schicken">
+    <include xmi:type="uml:Include" xmi:id="_Tr01sCHcEfC6Ep4ugyhYlg" addition="_RRSs8CHcEfC6Ep4ugyhYlg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_RRSs8CHcEfC6Ep4ugyhYlg" name="Server prüft Eingabe">
+    <include xmi:type="uml:Include" xmi:id="__uLmECHcEfC6Ep4ugyhYlg" addition="_84z7cCHcEfC6Ep4ugyhYlg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_84z7cCHcEfC6Ep4ugyhYlg" name="Bestätigung speichern"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_A_7h0CHdEfC6Ep4ugyhYlg" name="Bestätigungsmeldung">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_J7jZACHdEfC6Ep4ugyhYlg" name="ExtensionPoint1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_HfuPwCHdEfC6Ep4ugyhYlg" name="Teilnahme speichern">
+    <extend xmi:type="uml:Extend" xmi:id="_J7ix8CHdEfC6Ep4ugyhYlg" extendedCase="_A_7h0CHdEfC6Ep4ugyhYlg" extensionLocation="_J7jZACHdEfC6Ep4ugyhYlg"/>
+  </packagedElement>
+</uml:Model>

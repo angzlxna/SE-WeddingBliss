@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_j2_2ECHXEfCd0e154CaRPg" name="Speicherung">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_j35N8CHXEfCd0e154CaRPg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_j3F8sCHXEfCd0e154CaRPg" name="Umfrage" node="_Bt3bUCHcEfCd0e154CaRPg _E1tygCHbEfCd0e154CaRPg _B9BuICHbEfCd0e154CaRPg _-tDLICHaEfCd0e154CaRPg _2wlq4CHaEfCd0e154CaRPg _x6xygCHaEfCd0e154CaRPg _dqtoECHZEfCd0e154CaRPg _uI80wCHcEfCd0e154CaRPg _xR5Z4DrOEfCfL_FhilSR7g">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_t-EP4CHbEfCd0e154CaRPg" target="_2wlq4CHaEfCd0e154CaRPg" source="_x6xygCHaEfCd0e154CaRPg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_xEZHoCHbEfCd0e154CaRPg" target="_E1tygCHbEfCd0e154CaRPg" source="_B9BuICHbEfCd0e154CaRPg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_yP5RcCHbEfCd0e154CaRPg" target="_-tDLICHaEfCd0e154CaRPg" source="_E1tygCHbEfCd0e154CaRPg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_OT9ZICHcEfCd0e154CaRPg" target="_Bt3bUCHcEfCd0e154CaRPg" source="_2wlq4CHaEfCd0e154CaRPg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_VcwAwCHcEfCd0e154CaRPg" target="_x6xygCHaEfCd0e154CaRPg" source="_dqtoECHZEfCd0e154CaRPg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_1ONAMCHcEfCd0e154CaRPg" target="_uI80wCHcEfCd0e154CaRPg" source="_-tDLICHaEfCd0e154CaRPg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_QCC2ICHdEfCd0e154CaRPg" name="[annehmen]" target="_B9BuICHbEfCd0e154CaRPg" source="_Bt3bUCHcEfCd0e154CaRPg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_SoTGsCHdEfCd0e154CaRPg" name="[ablehnen]" target="_-tDLICHaEfCd0e154CaRPg" source="_Bt3bUCHcEfCd0e154CaRPg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_bdI3oDrPEfCfL_FhilSR7g" name="Button drücken" target="_xR5Z4DrOEfCfL_FhilSR7g" source="_dqtoECHZEfCd0e154CaRPg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_aoRPsDrQEfCfL_FhilSR7g" name="Zurück Button klicken" target="_x6xygCHaEfCd0e154CaRPg" source="_xR5Z4DrOEfCfL_FhilSR7g"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_dqtoECHZEfCd0e154CaRPg" name="" outgoing="_VcwAwCHcEfCd0e154CaRPg _bdI3oDrPEfCfL_FhilSR7g"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_x6xygCHaEfCd0e154CaRPg" name="Namen eintragen" incoming="_VcwAwCHcEfCd0e154CaRPg _aoRPsDrQEfCfL_FhilSR7g" outgoing="_t-EP4CHbEfCd0e154CaRPg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_2wlq4CHaEfCd0e154CaRPg" name="Teilnahme besätigen" incoming="_t-EP4CHbEfCd0e154CaRPg" outgoing="_OT9ZICHcEfCd0e154CaRPg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_-tDLICHaEfCd0e154CaRPg" name="Anwendung schließen" incoming="_yP5RcCHbEfCd0e154CaRPg _SoTGsCHdEfCd0e154CaRPg" outgoing="_1ONAMCHcEfCd0e154CaRPg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_B9BuICHbEfCd0e154CaRPg" name="Esspräferenz auswählen " incoming="_QCC2ICHdEfCd0e154CaRPg" outgoing="_xEZHoCHbEfCd0e154CaRPg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_E1tygCHbEfCd0e154CaRPg" name="Allergie eintragen" incoming="_xEZHoCHbEfCd0e154CaRPg" outgoing="_yP5RcCHbEfCd0e154CaRPg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_Bt3bUCHcEfCd0e154CaRPg" incoming="_OT9ZICHcEfCd0e154CaRPg" outgoing="_QCC2ICHdEfCd0e154CaRPg _SoTGsCHdEfCd0e154CaRPg"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_uI80wCHcEfCd0e154CaRPg" incoming="_1ONAMCHcEfCd0e154CaRPg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_xR5Z4DrOEfCfL_FhilSR7g" name="Über Uns Seite ansehen" incoming="_bdI3oDrPEfCfL_FhilSR7g" outgoing="_aoRPsDrQEfCfL_FhilSR7g"/>
+  </packagedElement>
+</uml:Model>

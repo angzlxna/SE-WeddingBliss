@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"Alle Packages","u":"allpackages-index.html"},{"l":"com.weddingbliss.weddingbliss_backend.controller"},{"l":"com.weddingbliss.weddingbliss_backend.model"},{"l":"com.weddingbliss.weddingbliss_backend.service"}];updateSearchResults();

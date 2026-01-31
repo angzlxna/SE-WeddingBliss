@@ -1,0 +1,145 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.weddingbliss</groupId>
+  <artifactId>weddingbliss-client</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+
+  <dependencies>
+
+    <!-- JSON Mapper -->
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.17.0</version>
+    </dependency>
+
+    <!-- FlatLaf -->
+    <dependency>
+      <groupId>com.formdev</groupId>
+      <artifactId>flatlaf</artifactId>
+      <version>3.4</version>
+    </dependency>
+
+    <!-- HTTP-Client -->
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>4.12.0</version>
+    </dependency>
+    
+    <!-- JUnit 4 -->
+	<dependency>
+  		<groupId>junit</groupId>
+  		<artifactId>junit</artifactId>
+  		<version>4.13.2</version>
+  		<scope>test</scope>
+	</dependency>
+	
+	  <!-- AssertJ Swing -->
+	  <dependency>
+	    <groupId>org.assertj</groupId>
+	    <artifactId>assertj-swing-junit</artifactId>
+	    <version>3.17.1</version>
+	    <scope>test</scope>
+	  </dependency>
+	  
+	  <!-- yGuard -->
+	  <dependency>
+		    <groupId>com.yworks</groupId>
+		    <artifactId>yguard</artifactId>
+		    <version>4.1.1</version>
+		    <scope>compile</scope>
+	</dependency>
+  </dependencies>
+
+	<build>
+	  <sourceDirectory>src/main/java</sourceDirectory>
+	  <plugins>
+	    <plugin>
+	      <artifactId>maven-compiler-plugin</artifactId>
+	      <version>3.8.1</version>
+	      <configuration>
+	        <release>21</release>
+	      </configuration>
+	    </plugin>
+	
+	    <plugin>
+	      <artifactId>maven-jar-plugin</artifactId>
+	      <version>3.3.0</version>
+	      <configuration>
+	        <archive>
+	          <manifest>
+	            <mainClass>com.weddingbliss.client.GastClientApp2</mainClass>
+	          </manifest>
+	        </archive>
+	      </configuration>
+	    </plugin>
+	    
+	    <plugin>
+		  <groupId>org.apache.maven.plugins</groupId>
+		  <artifactId>maven-shade-plugin</artifactId>
+		  <version>3.5.0</version>
+		  <executions>
+		    <execution>
+		      <phase>package</phase>
+		      <goals><goal>shade</goal></goals>
+		      <configuration>
+		        <createDependencyReducedPom>false</createDependencyReducedPom>
+		        <transformers>
+		          <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+		            <mainClass>com.weddingbliss.client.GastClientApp2</mainClass>
+		          </transformer>
+		          <transformer implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
+		            <resource>META-INF/spring.handlers</resource>
+		          </transformer>
+		          <transformer implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
+		            <resource>META-INF/spring.schemas</resource>
+		          </transformer>
+		        </transformers>
+		      </configuration>
+		    </execution>
+		  </executions>
+		</plugin>
+	
+	    <plugin>
+	      <artifactId>maven-antrun-plugin</artifactId>
+	      <version>3.1.0</version>
+	      <executions>
+	        <execution>
+	          <id>obfuscate</id>
+	          <phase>package</phase>
+	          <goals><goal>run</goal></goals>
+	          <configuration>
+	            <target>
+	              <taskdef name="yguard"
+	                       classname="com.yworks.yguard.YGuardTask"
+	                       classpathref="maven.runtime.classpath" />
+	              <yguard>
+	                <inoutpair in="${project.build.directory}/${project.build.finalName}.jar"
+	                           out="${project.build.directory}/${project.build.finalName}-obfuscated.jar" />
+	                <rename logfile="${project.build.directory}/yguard.log.xml"
+	                        replaceClassNameStrings="true">
+	                  <property name="obfuscation-prefix" value="obf"/>
+	                  <keep>
+	                    <class classes="private" methods="private" fields="private">
+	                      <patternset>
+	                        <include name="com/weddingbliss/**"/>
+	                      </patternset>
+	                    </class>
+	                  </keep>
+	                </rename>
+	                <externalclasses>
+	                  <pathelement path="${project.build.directory}/${project.build.finalName}.jar"/>
+	                </externalclasses>
+	              </yguard>
+	            </target>
+	          </configuration>
+	        </execution>
+	      </executions>
+	    </plugin>
+	  </plugins>
+	</build>
+</project>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_-3C50CHIEfCd0e154CaRPg" name="Klassendiagramm">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_-7ulgCHIEfCd0e154CaRPg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_KQuSYCHKEfCd0e154CaRPg" name="Gast">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Ze_98CHLEfCd0e154CaRPg" name="Name">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <defaultValue xmi:type="uml:LiteralNull" xmi:id="_q89lcCHSEfCd0e154CaRPg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Mdq1oCHLEfCd0e154CaRPg" name="Vorname">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <defaultValue xmi:type="uml:LiteralNull" xmi:id="_pW3KUCHSEfCd0e154CaRPg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_onwFwCHLEfCd0e154CaRPg" name="Teilnahme" visibility="package">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      <defaultValue xmi:type="uml:LiteralBoolean" xmi:id="_x00SQCHLEfCd0e154CaRPg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_fEgJsCHSEfCd0e154CaRPg" name="Präferenz">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_mF1ecCHSEfCd0e154CaRPg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_O71dACHSEfCd0e154CaRPg" name="Allergie">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <defaultValue xmi:type="uml:LiteralNull" xmi:id="_ZuEQgCHSEfCd0e154CaRPg"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_47fjkCHXEfCd0e154CaRPg" name="umfrage" type="_IKQmECHTEfCd0e154CaRPg" association="_47b5MCHXEfCd0e154CaRPg"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_BX8kwCHTEfCd0e154CaRPg" name="Gast"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_u6ankCHUEfCd0e154CaRPg" name="Gast">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_y3wm4CHUEfCd0e154CaRPg" type="_KQuSYCHKEfCd0e154CaRPg"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_IKQmECHTEfCd0e154CaRPg" name="Umfrage">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="__PgxQCHVEfCd0e154CaRPg" name="getName">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_KcvesCHWEfCd0e154CaRPg" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_9k4tYCHTEfCd0e154CaRPg" name="wirdTeilgenommen">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Ip5S8CHUEfCd0e154CaRPg" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_iTSvACHUEfCd0e154CaRPg" name="präferenzAuswählen">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_nJJDoCHUEfCd0e154CaRPg" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_YS69oCHREfCd0e154CaRPg" name="AllergienAngeben">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_grqxQCHREfCd0e154CaRPg" name="Eingabefeld">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_tp8lkCHREfCd0e154CaRPg" name="allergie" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_KhZAECHUEfCd0e154CaRPg" name="closeDialogWndow"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_zQlmEDrMEfCfL_FhilSR7g" name="ÜberWeddingBlissSeiteAnzeigen"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_il4t4DrNEfCfL_FhilSR7g" name="zurueckZurAnwendung"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_47b5MCHXEfCd0e154CaRPg" memberEnd="_47fjkCHXEfCd0e154CaRPg _47fjkyHXEfCd0e154CaRPg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_47eVcCHXEfCd0e154CaRPg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_47eVcSHXEfCd0e154CaRPg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_47fjkyHXEfCd0e154CaRPg" name="gast" type="_KQuSYCHKEfCd0e154CaRPg" association="_47b5MCHXEfCd0e154CaRPg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_F3RdgCHYEfCd0e154CaRPg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>

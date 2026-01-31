@@ -1,0 +1,1369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yguard version="1.5">
+<!--
+  yGuard Bytecode Obfuscator, v4.1.1, a Product of yWorks GmbH - http://www.yworks.com
+
+  Logfile created on Wed May 07 16:55:53 CEST 2025
+
+  Jar file to be obfuscated:           weddingbliss-backend-0.0.1-SNAPSHOT.jar
+  Target Jar file for obfuscated code: weddingbliss-backend-0.0.1-SNAPSHOT_obfuscated.jar
+
+-->
+<!-- WARNING
+Methods are called which may break in obfuscated version at runtime.
+Please review your source code to ensure that the dangerous methods are not intended
+to act on classes which have been obfuscated.
+-->
+<!--
+     Your class org.springframework.boot.loader.launch.LaunchedClassLoader calls the java.lang.ClassLoader method java.lang.Class loadClass(java.lang.String, boolean)
+     Your class org.springframework.boot.loader.launch.LaunchedClassLoader calls the java.lang.ClassLoader method java.lang.Class defineClass(java.lang.String, byte[], int, int)
+-->
+<!--
+     Your class org.springframework.boot.loader.launch.Launcher calls the java.lang.Class method java.lang.reflect.Method getDeclaredMethod(java.lang.String, java.lang.Class[])
+-->
+<!--
+     Your class org.springframework.boot.loader.net.protocol.jar.JarUrlClassLoader calls the java.lang.ClassLoader method java.lang.Class loadClass(java.lang.String, boolean)
+-->
+<!-- WARNING: Unresolved external dependency: com.fasterxml.jackson.core.type.TypeReference not found! -->
+<!-- WARNING: Unresolved external dependency: com.fasterxml.jackson.core.type.TypeReference not found! -->
+<!--
+  Memory in use after class data structure built: 28171480 bytes
+  Total memory available                        : 94371840 bytes
+-->
+<!-- WARNING: No mapping found: org.springframework.util.ClassUtils -->
+<!-- WARNING: No mapping found: org.springframework.core.io.support.SpringFactoriesLoader -->
+<!-- WARNING: Unresolved external dependency: org.springframework.util.ClassUtils not found! -->
+<!-- WARNING: Unresolved external dependency: org.springframework.core.io.support.SpringFactoriesLoader not found! -->
+<!-- WARNING: Unresolved external dependency: org.springframework.web.bind.annotation.RestController not found! -->
+<!-- WARNING: Unresolved external dependency: org.springframework.web.bind.annotation.RequestMapping not found! -->
+<!-- WARNING: Unresolved external dependency: org.springframework.web.bind.annotation.GetMapping not found! -->
+<!-- WARNING: Unresolved external dependency: org.springframework.web.bind.annotation.PostMapping not found! -->
+<!-- WARNING: Unresolved external dependency: org.springframework.web.bind.annotation.RequestBody not found! -->
+<!-- WARNING: Unresolved external dependency: org.springframework.beans.factory.annotation.Autowired not found! -->
+<!-- WARNING: Unresolved external dependency: org.springframework.boot.autoconfigure.SpringBootApplication not found! -->
+<!-- WARNING: No mapping found: org.springframework.boot.SpringApplication -->
+<!-- WARNING: Unresolved external dependency: org.springframework.context.ConfigurableApplicationContext not found! -->
+<!-- WARNING: Unresolved external dependency: org.springframework.boot.SpringApplication not found! -->
+<!-- WARNING: Unresolved external dependency: com.fasterxml.jackson.annotation.JsonProperty not found! -->
+<!-- WARNING: Unresolved external dependency: com.fasterxml.jackson.annotation.JsonProperty not found! -->
+<!-- WARNING: Unresolved external dependency: com.fasterxml.jackson.annotation.JsonProperty not found! -->
+<!-- WARNING: Unresolved external dependency: com.fasterxml.jackson.core.type.TypeReference not found! -->
+<!-- WARNING: No mapping found: com.fasterxml.jackson.core.type.TypeReference -->
+<!-- WARNING: Unresolved external dependency: com.fasterxml.jackson.core.type.TypeReference not found! -->
+<!-- WARNING: Unresolved external dependency: org.springframework.stereotype.Service not found! -->
+<!-- WARNING: Unresolved external dependency: com.fasterxml.jackson.databind.ObjectMapper not found! -->
+<!-- WARNING: No mapping found: com.fasterxml.jackson.databind.ObjectMapper -->
+<!-- WARNING: Unresolved external dependency: com.fasterxml.jackson.databind.ObjectMapper not found! -->
+<!-- WARNING: No mapping found: com.fasterxml.jackson.databind.ObjectMapper -->
+<!-- WARNING: Unresolved external dependency: com.fasterxml.jackson.core.type.TypeReference not found! -->
+<!-- WARNING: No mapping found: com.fasterxml.jackson.databind.ObjectMapper -->
+<!-- WARNING: Unresolved external dependency: com.fasterxml.jackson.databind.ObjectWriter not found! -->
+<!-- WARNING: No mapping found: com.fasterxml.jackson.databind.ObjectWriter -->
+<!-- WARNING: Unresolved external dependency: com.fasterxml.jackson.databind.ObjectMapper not found! -->
+<!-- WARNING: Unresolved external dependency: com.fasterxml.jackson.databind.ObjectWriter not found! -->
+<expose>
+</expose>
+<map>
+  <package name="com" map="obf/A"/>
+  <package name="com.weddingbliss" map="A"/>
+  <package name="com.weddingbliss.weddingbliss_backend" map="A"/>
+  <package name="com.weddingbliss.weddingbliss_backend.service" map="A"/>
+  <class name="com.weddingbliss.weddingbliss_backend.service.GastService$1" map="1"/>
+  <field class="com.weddingbliss.weddingbliss_backend.service.GastService$1" name="this$0" map="this$0"/>
+  <class name="com.weddingbliss.weddingbliss_backend.service.GastService" map="A"/>
+  <field class="com.weddingbliss.weddingbliss_backend.service.GastService" name="DATEIPFAD" map="A"/>
+  <field class="com.weddingbliss.weddingbliss_backend.service.GastService" name="mapper" map="B"/>
+  <method class="com.weddingbliss.weddingbliss_backend.service.GastService" name="void gastHinzufuegen(com.weddingbliss.weddingbliss_backend.model.Gast)" map="A"/>
+  <method class="com.weddingbliss.weddingbliss_backend.service.GastService" name="java.util.List ladeGaeste()" map="A"/>
+  <package name="com.weddingbliss.weddingbliss_backend.controller" map="B"/>
+  <class name="com.weddingbliss.weddingbliss_backend.controller.GastController" map="A"/>
+  <field class="com.weddingbliss.weddingbliss_backend.controller.GastController" name="gastService" map="A"/>
+  <method class="com.weddingbliss.weddingbliss_backend.controller.GastController" name="java.util.List alleGaeste()" map="A"/>
+  <method class="com.weddingbliss.weddingbliss_backend.controller.GastController" name="void gastHinzufuegen(com.weddingbliss.weddingbliss_backend.model.Gast)" map="A"/>
+  <package name="com.weddingbliss.weddingbliss_backend.model" map="C"/>
+  <class name="com.weddingbliss.weddingbliss_backend.model.Gast" map="A"/>
+  <field class="com.weddingbliss.weddingbliss_backend.model.Gast" name="allergien" map="A"/>
+  <field class="com.weddingbliss.weddingbliss_backend.model.Gast" name="nachname" map="B"/>
+  <field class="com.weddingbliss.weddingbliss_backend.model.Gast" name="essenswunsch" map="C"/>
+  <field class="com.weddingbliss.weddingbliss_backend.model.Gast" name="kommt" map="D"/>
+  <field class="com.weddingbliss.weddingbliss_backend.model.Gast" name="vorname" map="E"/>
+  <method class="com.weddingbliss.weddingbliss_backend.model.Gast" name="java.lang.String getVorname()" map="A"/>
+  <method class="com.weddingbliss.weddingbliss_backend.model.Gast" name="java.lang.Boolean getkommt()" map="B"/>
+  <method class="com.weddingbliss.weddingbliss_backend.model.Gast" name="void setVorname(java.lang.String)" map="A"/>
+  <method class="com.weddingbliss.weddingbliss_backend.model.Gast" name="void setNachname(java.lang.String)" map="B"/>
+  <method class="com.weddingbliss.weddingbliss_backend.model.Gast" name="void setAllergien(java.lang.String)" map="C"/>
+  <method class="com.weddingbliss.weddingbliss_backend.model.Gast" name="void setkommt(java.lang.Boolean)" map="A"/>
+  <method class="com.weddingbliss.weddingbliss_backend.model.Gast" name="void setEssenswunsch(java.lang.String)" map="D"/>
+  <method class="com.weddingbliss.weddingbliss_backend.model.Gast" name="java.lang.String getAllergien()" map="C"/>
+  <method class="com.weddingbliss.weddingbliss_backend.model.Gast" name="java.lang.String getEssenswunsch()" map="D"/>
+  <method class="com.weddingbliss.weddingbliss_backend.model.Gast" name="java.lang.String getNachname()" map="E"/>
+  <class name="com.weddingbliss.weddingbliss_backend.WeddingblissBackendApplication" map="A"/>
+  <method class="com.weddingbliss.weddingbliss_backend.WeddingblissBackendApplication" name="void main(java.lang.String[])" map="A"/>
+  <package name="org" map="obf/B"/>
+  <package name="org.springframework" map="A"/>
+  <package name="org.springframework.boot" map="A"/>
+  <package name="org.springframework.boot.loader" map="A"/>
+  <package name="org.springframework.boot.loader.zip" map="A"/>
+  <class name="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" map="A"/>
+  <field class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="fileCommentLength" map="A"/>
+  <field class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="lastModFileTime" map="B"/>
+  <field class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="crc32" map="C"/>
+  <field class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="compressedSize" map="D"/>
+  <field class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="externalFileAttributes" map="E"/>
+  <field class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="SIGNATURE" map="F"/>
+  <field class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="generalPurposeBitFlag" map="G"/>
+  <field class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="versionNeededToExtract" map="H"/>
+  <field class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="uncompressedSize" map="I"/>
+  <field class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="internalFileAttributes" map="J"/>
+  <field class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="MINIMUM_SIZE" map="K"/>
+  <field class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="compressionMethod" map="L"/>
+  <field class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="offsetToLocalHeader" map="M"/>
+  <field class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="debug" map="N"/>
+  <field class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="lastModFileDate" map="O"/>
+  <field class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="FILE_NAME_OFFSET" map="P"/>
+  <field class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="diskNumberStart" map="Q"/>
+  <field class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="versionMadeBy" map="R"/>
+  <field class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="fileNameLength" map="S"/>
+  <field class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="extraFieldLength" map="T"/>
+  <method class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="short fileNameLength()" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="int getChronoValue(long, java.time.temporal.ChronoField)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="long decodeMsDosFormatDateTime(short, short)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="short internalFileAttributes()" map="B"/>
+  <method class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord withFileNameLength(short)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="short extraFieldLength()" map="C"/>
+  <method class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="boolean equals(java.lang.Object)" map="equals"/>
+  <method class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="java.lang.String toString()" map="toString"/>
+  <method class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="void copyTo(org.springframework.boot.loader.zip.DataBlock, long, java.util.zip.ZipEntry)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="short diskNumberStart()" map="D"/>
+  <method class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="byte[] asByteArray()" map="E"/>
+  <method class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="short compressionMethod()" map="F"/>
+  <method class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord load(org.springframework.boot.loader.zip.DataBlock, long)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="short lastModFileTime()" map="G"/>
+  <method class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="int hashCode()" map="hashCode"/>
+  <method class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="short fileCommentLength()" map="H"/>
+  <method class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="int uncompressedSize()" map="I"/>
+  <method class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="int compressedSize()" map="J"/>
+  <method class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="int crc32()" map="K"/>
+  <method class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="int offsetToLocalHeader()" map="L"/>
+  <method class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord withOffsetToLocalHeader(int)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="short generalPurposeBitFlag()" map="M"/>
+  <method class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="long size()" map="N"/>
+  <method class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="short lastModFileDate()" map="O"/>
+  <method class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="int externalFileAttributes()" map="P"/>
+  <method class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="short versionNeededToExtract()" map="Q"/>
+  <method class="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord" name="short versionMadeBy()" map="R"/>
+  <class name="org.springframework.boot.loader.zip.ZipLocalFileHeaderRecord" map="B"/>
+  <field class="org.springframework.boot.loader.zip.ZipLocalFileHeaderRecord" name="debug" map="A"/>
+  <field class="org.springframework.boot.loader.zip.ZipLocalFileHeaderRecord" name="versionNeededToExtract" map="B"/>
+  <field class="org.springframework.boot.loader.zip.ZipLocalFileHeaderRecord" name="MINIMUM_SIZE" map="C"/>
+  <field class="org.springframework.boot.loader.zip.ZipLocalFileHeaderRecord" name="lastModFileDate" map="D"/>
+  <field class="org.springframework.boot.loader.zip.ZipLocalFileHeaderRecord" name="crc32" map="E"/>
+  <field class="org.springframework.boot.loader.zip.ZipLocalFileHeaderRecord" name="lastModFileTime" map="F"/>
+  <field class="org.springframework.boot.loader.zip.ZipLocalFileHeaderRecord" name="SIGNATURE" map="G"/>
+  <field class="org.springframework.boot.loader.zip.ZipLocalFileHeaderRecord" name="extraFieldLength" map="H"/>
+  <field class="org.springframework.boot.loader.zip.ZipLocalFileHeaderRecord" name="compressedSize" map="I"/>
+  <field class="org.springframework.boot.loader.zip.ZipLocalFileHeaderRecord" name="compressionMethod" map="J"/>
+  <field class="org.springframework.boot.loader.zip.ZipLocalFileHeaderRecord" name="fileNameLength" map="K"/>
+  <field class="org.springframework.boot.loader.zip.ZipLocalFileHeaderRecord" name="uncompressedSize" map="L"/>
+  <field class="org.springframework.boot.loader.zip.ZipLocalFileHeaderRecord" name="generalPurposeBitFlag" map="M"/>
+  <method class="org.springframework.boot.loader.zip.ZipLocalFileHeaderRecord" name="short fileNameLength()" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipLocalFileHeaderRecord" name="short extraFieldLength()" map="B"/>
+  <method class="org.springframework.boot.loader.zip.ZipLocalFileHeaderRecord" name="org.springframework.boot.loader.zip.ZipLocalFileHeaderRecord load(org.springframework.boot.loader.zip.DataBlock, long)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipLocalFileHeaderRecord" name="boolean equals(java.lang.Object)" map="equals"/>
+  <method class="org.springframework.boot.loader.zip.ZipLocalFileHeaderRecord" name="java.lang.String toString()" map="toString"/>
+  <method class="org.springframework.boot.loader.zip.ZipLocalFileHeaderRecord" name="byte[] asByteArray()" map="C"/>
+  <method class="org.springframework.boot.loader.zip.ZipLocalFileHeaderRecord" name="short compressionMethod()" map="D"/>
+  <method class="org.springframework.boot.loader.zip.ZipLocalFileHeaderRecord" name="short lastModFileTime()" map="E"/>
+  <method class="org.springframework.boot.loader.zip.ZipLocalFileHeaderRecord" name="int hashCode()" map="hashCode"/>
+  <method class="org.springframework.boot.loader.zip.ZipLocalFileHeaderRecord" name="int uncompressedSize()" map="F"/>
+  <method class="org.springframework.boot.loader.zip.ZipLocalFileHeaderRecord" name="int compressedSize()" map="G"/>
+  <method class="org.springframework.boot.loader.zip.ZipLocalFileHeaderRecord" name="int crc32()" map="H"/>
+  <method class="org.springframework.boot.loader.zip.ZipLocalFileHeaderRecord" name="org.springframework.boot.loader.zip.ZipLocalFileHeaderRecord withFileNameLength(short)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipLocalFileHeaderRecord" name="short generalPurposeBitFlag()" map="I"/>
+  <method class="org.springframework.boot.loader.zip.ZipLocalFileHeaderRecord" name="long size()" map="J"/>
+  <method class="org.springframework.boot.loader.zip.ZipLocalFileHeaderRecord" name="short lastModFileDate()" map="K"/>
+  <method class="org.springframework.boot.loader.zip.ZipLocalFileHeaderRecord" name="short versionNeededToExtract()" map="L"/>
+  <method class="org.springframework.boot.loader.zip.ZipLocalFileHeaderRecord" name="org.springframework.boot.loader.zip.ZipLocalFileHeaderRecord withExtraFieldLength(short)" map="B"/>
+  <class name="org.springframework.boot.loader.zip.VirtualZipDataBlock$DataPart" map="_A"/>
+  <field class="org.springframework.boot.loader.zip.VirtualZipDataBlock$DataPart" name="this$0" map="M"/>
+  <field class="org.springframework.boot.loader.zip.VirtualZipDataBlock$DataPart" name="size" map="N"/>
+  <field class="org.springframework.boot.loader.zip.VirtualZipDataBlock$DataPart" name="offset" map="O"/>
+  <method class="org.springframework.boot.loader.zip.VirtualZipDataBlock$DataPart" name="long size()" map="A"/>
+  <method class="org.springframework.boot.loader.zip.VirtualZipDataBlock$DataPart" name="int read(java.nio.ByteBuffer, long)" map="A"/>
+  <class name="org.springframework.boot.loader.zip.VirtualZipDataBlock" map="C"/>
+  <field class="org.springframework.boot.loader.zip.VirtualZipDataBlock" name="data" map="L"/>
+  <method class="org.springframework.boot.loader.zip.VirtualZipDataBlock" name="void close()" map="close"/>
+  <method class="org.springframework.boot.loader.zip.VirtualZipDataBlock" name="long addToLocal(java.util.List, org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord, org.springframework.boot.loader.zip.ZipLocalFileHeaderRecord, org.springframework.boot.loader.zip.ZipDataDescriptorRecord, org.springframework.boot.loader.zip.DataBlock, org.springframework.boot.loader.zip.DataBlock)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.VirtualZipDataBlock" name="long addToCentral(java.util.List, org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord, long, org.springframework.boot.loader.zip.DataBlock, int)" map="A"/>
+  <class name="org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord$Located" map="_A"/>
+  <field class="org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord$Located" name="endOfCentralDirectoryRecord" map="A"/>
+  <field class="org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord$Located" name="pos" map="B"/>
+  <method class="org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord$Located" name="long pos()" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord$Located" name="boolean equals(java.lang.Object)" map="equals"/>
+  <method class="org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord$Located" name="int hashCode()" map="hashCode"/>
+  <method class="org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord$Located" name="org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord endOfCentralDirectoryRecord()" map="B"/>
+  <method class="org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord$Located" name="java.lang.String toString()" map="toString"/>
+  <class name="org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord" map="D"/>
+  <field class="org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord" name="debug" map="A"/>
+  <field class="org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord" name="COMMENT_OFFSET" map="B"/>
+  <field class="org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord" name="MINIMUM_SIZE" map="C"/>
+  <field class="org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord" name="MAXIMUM_COMMENT_LENGTH" map="D"/>
+  <field class="org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord" name="diskWhereCentralDirectoryStarts" map="E"/>
+  <field class="org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord" name="MAXIMUM_SIZE" map="F"/>
+  <field class="org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord" name="sizeOfCentralDirectory" map="G"/>
+  <field class="org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord" name="SIGNATURE" map="H"/>
+  <field class="org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord" name="numberOfThisDisk" map="I"/>
+  <field class="org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord" name="BUFFER_SIZE" map="J"/>
+  <field class="org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord" name="offsetToStartOfCentralDirectory" map="K"/>
+  <field class="org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord" name="commentLength" map="L"/>
+  <field class="org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord" name="totalNumberOfCentralDirectoryEntries" map="M"/>
+  <field class="org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord" name="numberOfCentralDirectoryEntriesOnThisDisk" map="N"/>
+  <method class="org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord" name="short diskWhereCentralDirectoryStarts()" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord" name="short totalNumberOfCentralDirectoryEntries()" map="B"/>
+  <method class="org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord" name="int findInBuffer(java.nio.ByteBuffer)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord" name="int hashCode()" map="hashCode"/>
+  <method class="org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord" name="short commentLength()" map="C"/>
+  <method class="org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord" name="boolean equals(java.lang.Object)" map="equals"/>
+  <method class="org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord" name="short numberOfCentralDirectoryEntriesOnThisDisk()" map="D"/>
+  <method class="org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord" name="org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord$Located load(org.springframework.boot.loader.zip.DataBlock)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord" name="short numberOfThisDisk()" map="E"/>
+  <method class="org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord" name="int sizeOfCentralDirectory()" map="F"/>
+  <method class="org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord" name="long locate(org.springframework.boot.loader.zip.DataBlock, java.nio.ByteBuffer)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord" name="long size()" map="G"/>
+  <method class="org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord" name="int offsetToStartOfCentralDirectory()" map="H"/>
+  <method class="org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord" name="byte[] asByteArray()" map="I"/>
+  <method class="org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord" name="java.lang.String toString()" map="toString"/>
+  <class name="org.springframework.boot.loader.zip.VirtualDataBlock" map="E"/>
+  <field class="org.springframework.boot.loader.zip.VirtualDataBlock" name="lastReadPart" map="A"/>
+  <field class="org.springframework.boot.loader.zip.VirtualDataBlock" name="size" map="B"/>
+  <field class="org.springframework.boot.loader.zip.VirtualDataBlock" name="offsets" map="C"/>
+  <field class="org.springframework.boot.loader.zip.VirtualDataBlock" name="parts" map="D"/>
+  <method class="org.springframework.boot.loader.zip.VirtualDataBlock" name="void setParts(java.util.Collection)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.VirtualDataBlock" name="long size()" map="A"/>
+  <method class="org.springframework.boot.loader.zip.VirtualDataBlock" name="int read(java.nio.ByteBuffer, long)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.VirtualDataBlock" name="org.springframework.boot.loader.zip.DataBlock[] lambda$setParts$0(int)" map="A"/>
+  <class name="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryLocator" map="F"/>
+  <field class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryLocator" name="totalNumberOfDisks" map="A"/>
+  <field class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryLocator" name="debug" map="B"/>
+  <field class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryLocator" name="offsetToZip64EndOfCentralDirectoryRecord" map="C"/>
+  <field class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryLocator" name="SIGNATURE" map="D"/>
+  <field class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryLocator" name="numberOfThisDisk" map="E"/>
+  <field class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryLocator" name="SIZE" map="F"/>
+  <field class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryLocator" name="pos" map="G"/>
+  <method class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryLocator" name="long offsetToZip64EndOfCentralDirectoryRecord()" map="A"/>
+  <method class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryLocator" name="int totalNumberOfDisks()" map="B"/>
+  <method class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryLocator" name="int numberOfThisDisk()" map="C"/>
+  <method class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryLocator" name="long pos()" map="D"/>
+  <method class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryLocator" name="boolean equals(java.lang.Object)" map="equals"/>
+  <method class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryLocator" name="int hashCode()" map="hashCode"/>
+  <method class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryLocator" name="java.lang.String toString()" map="toString"/>
+  <method class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryLocator" name="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryLocator find(org.springframework.boot.loader.zip.DataBlock, long)" map="A"/>
+  <class name="org.springframework.boot.loader.zip.ZipString$CompareType" map="_A"/>
+  <field class="org.springframework.boot.loader.zip.ZipString$CompareType" name="MATCHES" map="A"/>
+  <field class="org.springframework.boot.loader.zip.ZipString$CompareType" name="$VALUES" map="B"/>
+  <field class="org.springframework.boot.loader.zip.ZipString$CompareType" name="MATCHES_ADDING_SLASH" map="C"/>
+  <field class="org.springframework.boot.loader.zip.ZipString$CompareType" name="STARTS_WITH" map="D"/>
+  <method class="org.springframework.boot.loader.zip.ZipString$CompareType" name="org.springframework.boot.loader.zip.ZipString$CompareType[] values()" map="values"/>
+  <method class="org.springframework.boot.loader.zip.ZipString$CompareType" name="org.springframework.boot.loader.zip.ZipString$CompareType[] $values()" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipString$CompareType" name="org.springframework.boot.loader.zip.ZipString$CompareType valueOf(java.lang.String)" map="valueOf"/>
+  <class name="org.springframework.boot.loader.zip.ZipString" map="G"/>
+  <field class="org.springframework.boot.loader.zip.ZipString" name="INITIAL_BYTE_BITMASK" map="A"/>
+  <field class="org.springframework.boot.loader.zip.ZipString" name="EMPTY_HASH" map="B"/>
+  <field class="org.springframework.boot.loader.zip.ZipString" name="debug" map="C"/>
+  <field class="org.springframework.boot.loader.zip.ZipString" name="SUBSEQUENT_BYTE_BITMASK" map="D"/>
+  <field class="org.springframework.boot.loader.zip.ZipString" name="BUFFER_SIZE" map="E"/>
+  <field class="org.springframework.boot.loader.zip.ZipString" name="EMPTY_SLASH_HASH" map="F"/>
+  <method class="org.springframework.boot.loader.zip.ZipString" name="int readInBuffer(org.springframework.boot.loader.zip.DataBlock, long, java.nio.ByteBuffer, int, int)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipString" name="int hash(java.nio.ByteBuffer, org.springframework.boot.loader.zip.DataBlock, long, int, boolean)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipString" name="boolean matches(java.nio.ByteBuffer, org.springframework.boot.loader.zip.DataBlock, long, int, java.lang.CharSequence, boolean)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipString" name="int hash(int, java.lang.CharSequence, boolean)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipString" name="int getCodePoint(byte[], int, int)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipString" name="int compare(java.nio.ByteBuffer, org.springframework.boot.loader.zip.DataBlock, long, int, java.lang.CharSequence, org.springframework.boot.loader.zip.ZipString$CompareType)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipString" name="java.lang.String readString(org.springframework.boot.loader.zip.DataBlock, long, long)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipString" name="int startsWith(java.nio.ByteBuffer, org.springframework.boot.loader.zip.DataBlock, long, int, java.lang.CharSequence)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipString" name="char getChar(java.lang.CharSequence, int)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipString" name="int hash(java.lang.CharSequence, boolean)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipString" name="boolean endsWith(java.lang.CharSequence, char)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipString" name="int getCodePointSize(byte[], int)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipString" name="boolean hasEnoughBytes(int, int, int)" map="A"/>
+  <class name="org.springframework.boot.loader.zip.ByteArrayDataBlock" map="H"/>
+  <field class="org.springframework.boot.loader.zip.ByteArrayDataBlock" name="bytes" map="E"/>
+  <field class="org.springframework.boot.loader.zip.ByteArrayDataBlock" name="maxReadSize" map="F"/>
+  <method class="org.springframework.boot.loader.zip.ByteArrayDataBlock" name="long size()" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ByteArrayDataBlock" name="int read(java.nio.ByteBuffer, long)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ByteArrayDataBlock" name="void close()" map="close"/>
+  <method class="org.springframework.boot.loader.zip.ByteArrayDataBlock" name="int read(java.nio.ByteBuffer, int)" map="A"/>
+  <class name="org.springframework.boot.loader.zip.CloseableDataBlock" map="I"/>
+  <class name="org.springframework.boot.loader.zip.ZipContent$Entry" map="_A"/>
+  <field class="org.springframework.boot.loader.zip.ZipContent$Entry" name="this$0" map="A"/>
+  <field class="org.springframework.boot.loader.zip.ZipContent$Entry" name="lookupIndex" map="B"/>
+  <field class="org.springframework.boot.loader.zip.ZipContent$Entry" name="name" map="C"/>
+  <field class="org.springframework.boot.loader.zip.ZipContent$Entry" name="content" map="D"/>
+  <field class="org.springframework.boot.loader.zip.ZipContent$Entry" name="centralRecord" map="E"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent$Entry" name="java.util.zip.ZipEntry as(java.util.function.Function)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent$Entry" name="int getCompressionMethod()" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent$Entry" name="boolean isDirectory()" map="B"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent$Entry" name="java.util.zip.ZipEntry lambda$as$0(java.util.function.Function, org.springframework.boot.loader.zip.ZipContent$Entry, java.lang.String)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent$Entry" name="java.util.zip.ZipEntry as(java.util.function.BiFunction)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent$Entry" name="boolean hasNameStartingWith(java.lang.CharSequence)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent$Entry" name="int getUncompressedSize()" map="C"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent$Entry" name="org.springframework.boot.loader.zip.CloseableDataBlock openContent()" map="D"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent$Entry" name="java.lang.String getName()" map="E"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent$Entry" name="void checkNotZip64Extended(long)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent$Entry" name="org.springframework.boot.loader.zip.FileDataBlock getContent()" map="F"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent$Entry" name="int getLookupIndex()" map="G"/>
+  <class name="org.springframework.boot.loader.zip.ZipContent$Kind" map="_B"/>
+  <field class="org.springframework.boot.loader.zip.ZipContent$Kind" name="NESTED_DIRECTORY" map="A"/>
+  <field class="org.springframework.boot.loader.zip.ZipContent$Kind" name="ZIP" map="B"/>
+  <field class="org.springframework.boot.loader.zip.ZipContent$Kind" name="$VALUES" map="C"/>
+  <field class="org.springframework.boot.loader.zip.ZipContent$Kind" name="NESTED_ZIP" map="D"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent$Kind" name="org.springframework.boot.loader.zip.ZipContent$Kind[] $values()" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent$Kind" name="org.springframework.boot.loader.zip.ZipContent$Kind valueOf(java.lang.String)" map="valueOf"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent$Kind" name="org.springframework.boot.loader.zip.ZipContent$Kind[] values()" map="values"/>
+  <class name="org.springframework.boot.loader.zip.ZipContent$Source" map="_C"/>
+  <field class="org.springframework.boot.loader.zip.ZipContent$Source" name="nestedEntryName" map="A"/>
+  <field class="org.springframework.boot.loader.zip.ZipContent$Source" name="path" map="B"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent$Source" name="java.nio.file.Path path()" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent$Source" name="boolean equals(java.lang.Object)" map="equals"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent$Source" name="int hashCode()" map="hashCode"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent$Source" name="java.lang.String toString()" map="toString"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent$Source" name="boolean isNested()" map="B"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent$Source" name="java.lang.String nestedEntryName()" map="C"/>
+  <class name="org.springframework.boot.loader.zip.ZipContent$Loader" map="_D"/>
+  <field class="org.springframework.boot.loader.zip.ZipContent$Loader" name="nameHashLookups" map="A"/>
+  <field class="org.springframework.boot.loader.zip.ZipContent$Loader" name="source" map="B"/>
+  <field class="org.springframework.boot.loader.zip.ZipContent$Loader" name="buffer" map="C"/>
+  <field class="org.springframework.boot.loader.zip.ZipContent$Loader" name="data" map="D"/>
+  <field class="org.springframework.boot.loader.zip.ZipContent$Loader" name="nameOffsetLookups" map="E"/>
+  <field class="org.springframework.boot.loader.zip.ZipContent$Loader" name="index" map="F"/>
+  <field class="org.springframework.boot.loader.zip.ZipContent$Loader" name="cursor" map="G"/>
+  <field class="org.springframework.boot.loader.zip.ZipContent$Loader" name="relativeCentralDirectoryOffsetLookups" map="H"/>
+  <field class="org.springframework.boot.loader.zip.ZipContent$Loader" name="centralDirectoryPos" map="I"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent$Loader" name="org.springframework.boot.loader.zip.ZipContent load(org.springframework.boot.loader.zip.ZipContent$Source)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent$Loader" name="void add(org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord, long, boolean)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent$Loader" name="long getSizeOfCentralDirectoryAndEndRecords(org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord, org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryRecord)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent$Loader" name="long getStartOfZipContent(org.springframework.boot.loader.zip.FileDataBlock, org.springframework.boot.loader.zip.ZipEndOfCentralDirectoryRecord, org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryRecord)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent$Loader" name="org.springframework.boot.loader.zip.ZipContent loadContent(org.springframework.boot.loader.zip.ZipContent$Source, org.springframework.boot.loader.zip.ZipContent$Kind, org.springframework.boot.loader.zip.FileDataBlock)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent$Loader" name="void sort(int, int)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent$Loader" name="void swap(int[], int, int)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent$Loader" name="org.springframework.boot.loader.zip.ZipContent loadNestedDirectory(org.springframework.boot.loader.zip.ZipContent$Source, org.springframework.boot.loader.zip.ZipContent, org.springframework.boot.loader.zip.ZipContent$Entry)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent$Loader" name="void swap(int, int)" map="B"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent$Loader" name="org.springframework.boot.loader.zip.ZipContent loadNonNested(org.springframework.boot.loader.zip.ZipContent$Source)" map="B"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent$Loader" name="org.springframework.boot.loader.zip.ZipContent loadNestedZip(org.springframework.boot.loader.zip.ZipContent$Source, org.springframework.boot.loader.zip.ZipContent$Entry)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent$Loader" name="org.springframework.boot.loader.zip.ZipContent finish(org.springframework.boot.loader.zip.ZipContent$Kind, long, long, boolean)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent$Loader" name="org.springframework.boot.loader.zip.ZipContent openAndLoad(org.springframework.boot.loader.zip.ZipContent$Source, org.springframework.boot.loader.zip.ZipContent$Kind, org.springframework.boot.loader.zip.FileDataBlock)" map="B"/>
+  <class name="org.springframework.boot.loader.zip.ZipContent" map="J"/>
+  <field class="org.springframework.boot.loader.zip.ZipContent" name="nameHashLookups" map="A"/>
+  <field class="org.springframework.boot.loader.zip.ZipContent" name="source" map="B"/>
+  <field class="org.springframework.boot.loader.zip.ZipContent" name="cache" map="C"/>
+  <field class="org.springframework.boot.loader.zip.ZipContent" name="debug" map="D"/>
+  <field class="org.springframework.boot.loader.zip.ZipContent" name="info" map="E"/>
+  <field class="org.springframework.boot.loader.zip.ZipContent" name="commentPos" map="F"/>
+  <field class="org.springframework.boot.loader.zip.ZipContent" name="kind" map="G"/>
+  <field class="org.springframework.boot.loader.zip.ZipContent" name="virtualData" map="H"/>
+  <field class="org.springframework.boot.loader.zip.ZipContent" name="SIGNATURE_SUFFIX" map="I"/>
+  <field class="org.springframework.boot.loader.zip.ZipContent" name="data" map="J"/>
+  <field class="org.springframework.boot.loader.zip.ZipContent" name="nameOffsetLookups" map="K"/>
+  <field class="org.springframework.boot.loader.zip.ZipContent" name="commentLength" map="L"/>
+  <field class="org.springframework.boot.loader.zip.ZipContent" name="META_INF" map="M"/>
+  <field class="org.springframework.boot.loader.zip.ZipContent" name="hasJarSignatureFile" map="N"/>
+  <field class="org.springframework.boot.loader.zip.ZipContent" name="lookupIndexes" map="O"/>
+  <field class="org.springframework.boot.loader.zip.ZipContent" name="relativeCentralDirectoryOffsetLookups" map="P"/>
+  <field class="org.springframework.boot.loader.zip.ZipContent" name="centralDirectoryPos" map="Q"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent" name="org.springframework.boot.loader.zip.ZipContent open(java.nio.file.Path, java.lang.String)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent" name="java.lang.String getComment()" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent" name="long getCentralDirectoryFileHeaderRecordPos(int)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent" name="org.springframework.boot.loader.zip.ZipContent$Entry getEntry(int)" map="B"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent" name="boolean hasEntry(java.lang.CharSequence, java.lang.CharSequence)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent" name="java.lang.String toString()" map="toString"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent" name="java.lang.Object lambda$getInfo$0(java.lang.Class, java.util.function.Function, java.lang.Class)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent" name="void close()" map="close"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent" name="org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord loadZipCentralDirectoryFileHeaderRecord(long)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent" name="org.springframework.boot.loader.zip.CloseableDataBlock getVirtualData()" map="B"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent" name="int nameHash(java.lang.CharSequence, java.lang.CharSequence)" map="B"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent" name="boolean hasName(int, org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord, long, java.lang.CharSequence, java.lang.CharSequence)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent" name="org.springframework.boot.loader.zip.ZipContent$Entry getEntry(java.lang.CharSequence, java.lang.CharSequence)" map="C"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent" name="int getFirstLookupIndex(int)" map="C"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent" name="org.springframework.boot.loader.zip.ZipContent open(org.springframework.boot.loader.zip.ZipContent$Source)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent" name="org.springframework.boot.loader.zip.CloseableDataBlock openRawZipData()" map="C"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent" name="int size()" map="D"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent" name="boolean hasJarSignatureFile()" map="E"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent" name="org.springframework.boot.loader.zip.ZipContent$Kind getKind()" map="F"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent" name="org.springframework.boot.loader.zip.ZipContent open(java.nio.file.Path)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent" name="java.lang.Object getInfo(java.lang.Class, java.util.function.Function)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent" name="org.springframework.boot.loader.zip.ZipContent$Entry getEntry(java.lang.CharSequence)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipContent" name="org.springframework.boot.loader.zip.CloseableDataBlock createVirtualData()" map="G"/>
+  <class name="org.springframework.boot.loader.zip.DataBlockInputStream" map="K"/>
+  <field class="org.springframework.boot.loader.zip.DataBlockInputStream" name="closed" map="A"/>
+  <field class="org.springframework.boot.loader.zip.DataBlockInputStream" name="remaining" map="B"/>
+  <field class="org.springframework.boot.loader.zip.DataBlockInputStream" name="pos" map="C"/>
+  <field class="org.springframework.boot.loader.zip.DataBlockInputStream" name="dataBlock" map="D"/>
+  <method class="org.springframework.boot.loader.zip.DataBlockInputStream" name="long skip(long)" map="skip"/>
+  <method class="org.springframework.boot.loader.zip.DataBlockInputStream" name="int read()" map="read"/>
+  <method class="org.springframework.boot.loader.zip.DataBlockInputStream" name="void ensureOpen()" map="A"/>
+  <method class="org.springframework.boot.loader.zip.DataBlockInputStream" name="long maxBackwardSkip(long)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.DataBlockInputStream" name="long maxForwardSkip(long)" map="B"/>
+  <method class="org.springframework.boot.loader.zip.DataBlockInputStream" name="void close()" map="close"/>
+  <method class="org.springframework.boot.loader.zip.DataBlockInputStream" name="int available()" map="available"/>
+  <method class="org.springframework.boot.loader.zip.DataBlockInputStream" name="int read(byte[], int, int)" map="read"/>
+  <class name="org.springframework.boot.loader.zip.ZipDataDescriptorRecord" map="L"/>
+  <field class="org.springframework.boot.loader.zip.ZipDataDescriptorRecord" name="DATA_SIZE" map="A"/>
+  <field class="org.springframework.boot.loader.zip.ZipDataDescriptorRecord" name="uncompressedSize" map="B"/>
+  <field class="org.springframework.boot.loader.zip.ZipDataDescriptorRecord" name="debug" map="C"/>
+  <field class="org.springframework.boot.loader.zip.ZipDataDescriptorRecord" name="includeSignature" map="D"/>
+  <field class="org.springframework.boot.loader.zip.ZipDataDescriptorRecord" name="SIGNATURE_SIZE" map="E"/>
+  <field class="org.springframework.boot.loader.zip.ZipDataDescriptorRecord" name="crc32" map="F"/>
+  <field class="org.springframework.boot.loader.zip.ZipDataDescriptorRecord" name="SIGNATURE" map="G"/>
+  <field class="org.springframework.boot.loader.zip.ZipDataDescriptorRecord" name="compressedSize" map="H"/>
+  <method class="org.springframework.boot.loader.zip.ZipDataDescriptorRecord" name="boolean includeSignature()" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipDataDescriptorRecord" name="int crc32()" map="B"/>
+  <method class="org.springframework.boot.loader.zip.ZipDataDescriptorRecord" name="int hashCode()" map="hashCode"/>
+  <method class="org.springframework.boot.loader.zip.ZipDataDescriptorRecord" name="boolean equals(java.lang.Object)" map="equals"/>
+  <method class="org.springframework.boot.loader.zip.ZipDataDescriptorRecord" name="boolean isPresentBasedOnFlag(org.springframework.boot.loader.zip.ZipCentralDirectoryFileHeaderRecord)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipDataDescriptorRecord" name="int uncompressedSize()" map="C"/>
+  <method class="org.springframework.boot.loader.zip.ZipDataDescriptorRecord" name="int compressedSize()" map="D"/>
+  <method class="org.springframework.boot.loader.zip.ZipDataDescriptorRecord" name="org.springframework.boot.loader.zip.ZipDataDescriptorRecord load(org.springframework.boot.loader.zip.DataBlock, long)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipDataDescriptorRecord" name="boolean isPresentBasedOnFlag(int)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipDataDescriptorRecord" name="boolean isPresentBasedOnFlag(org.springframework.boot.loader.zip.ZipLocalFileHeaderRecord)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.ZipDataDescriptorRecord" name="long size()" map="E"/>
+  <method class="org.springframework.boot.loader.zip.ZipDataDescriptorRecord" name="byte[] asByteArray()" map="F"/>
+  <method class="org.springframework.boot.loader.zip.ZipDataDescriptorRecord" name="java.lang.String toString()" map="toString"/>
+  <class name="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryRecord" map="M"/>
+  <field class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryRecord" name="debug" map="A"/>
+  <field class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryRecord" name="versionMadeBy" map="B"/>
+  <field class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryRecord" name="versionNeededToExtract" map="C"/>
+  <field class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryRecord" name="MINIMUM_SIZE" map="D"/>
+  <field class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryRecord" name="diskWhereCentralDirectoryStarts" map="E"/>
+  <field class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryRecord" name="sizeOfCentralDirectory" map="F"/>
+  <field class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryRecord" name="SIGNATURE" map="G"/>
+  <field class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryRecord" name="numberOfThisDisk" map="H"/>
+  <field class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryRecord" name="offsetToStartOfCentralDirectory" map="I"/>
+  <field class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryRecord" name="totalNumberOfCentralDirectoryEntries" map="J"/>
+  <field class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryRecord" name="numberOfCentralDirectoryEntriesOnThisDisk" map="K"/>
+  <field class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryRecord" name="size" map="L"/>
+  <field class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryRecord" name="sizeOfZip64EndOfCentralDirectoryRecord" map="M"/>
+  <method class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryRecord" name="int numberOfThisDisk()" map="A"/>
+  <method class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryRecord" name="short versionMadeBy()" map="B"/>
+  <method class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryRecord" name="int hashCode()" map="hashCode"/>
+  <method class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryRecord" name="boolean equals(java.lang.Object)" map="equals"/>
+  <method class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryRecord" name="long sizeOfZip64EndOfCentralDirectoryRecord()" map="C"/>
+  <method class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryRecord" name="int diskWhereCentralDirectoryStarts()" map="D"/>
+  <method class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryRecord" name="long totalNumberOfCentralDirectoryEntries()" map="E"/>
+  <method class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryRecord" name="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryRecord load(org.springframework.boot.loader.zip.DataBlock, org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryLocator)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryRecord" name="long sizeOfCentralDirectory()" map="F"/>
+  <method class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryRecord" name="long numberOfCentralDirectoryEntriesOnThisDisk()" map="G"/>
+  <method class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryRecord" name="long offsetToStartOfCentralDirectory()" map="H"/>
+  <method class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryRecord" name="long size()" map="I"/>
+  <method class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryRecord" name="java.lang.String toString()" map="toString"/>
+  <method class="org.springframework.boot.loader.zip.Zip64EndOfCentralDirectoryRecord" name="short versionNeededToExtract()" map="J"/>
+  <class name="org.springframework.boot.loader.zip.DataBlock" map="N"/>
+  <method class="org.springframework.boot.loader.zip.DataBlock" name="long size()" map="A"/>
+  <method class="org.springframework.boot.loader.zip.DataBlock" name="int read(java.nio.ByteBuffer, long)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.DataBlock" name="java.io.InputStream asInputStream()" map="B"/>
+  <method class="org.springframework.boot.loader.zip.DataBlock" name="void readFully(java.nio.ByteBuffer, long)" map="B"/>
+  <class name="org.springframework.boot.loader.zip.NameOffsetLookups" map="O"/>
+  <field class="org.springframework.boot.loader.zip.NameOffsetLookups" name="enabled" map="A"/>
+  <field class="org.springframework.boot.loader.zip.NameOffsetLookups" name="offset" map="B"/>
+  <field class="org.springframework.boot.loader.zip.NameOffsetLookups" name="NONE" map="C"/>
+  <method class="org.springframework.boot.loader.zip.NameOffsetLookups" name="int enable(int, boolean)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.NameOffsetLookups" name="org.springframework.boot.loader.zip.NameOffsetLookups emptyCopy()" map="A"/>
+  <method class="org.springframework.boot.loader.zip.NameOffsetLookups" name="void swap(int, int)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.NameOffsetLookups" name="boolean hasAnyEnabled()" map="B"/>
+  <method class="org.springframework.boot.loader.zip.NameOffsetLookups" name="boolean isEnabled(int)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.NameOffsetLookups" name="int get(int)" map="B"/>
+  <class name="org.springframework.boot.loader.zip.FileDataBlock$Tracker$1" map="1"/>
+  <method class="org.springframework.boot.loader.zip.FileDataBlock$Tracker$1" name="void closedFileChannel(java.nio.file.Path)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.FileDataBlock$Tracker$1" name="void openedFileChannel(java.nio.file.Path)" map="B"/>
+  <class name="org.springframework.boot.loader.zip.FileDataBlock$Tracker" map="_A"/>
+  <field class="org.springframework.boot.loader.zip.FileDataBlock$Tracker" name="NONE" map="A"/>
+  <method class="org.springframework.boot.loader.zip.FileDataBlock$Tracker" name="void closedFileChannel(java.nio.file.Path)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.FileDataBlock$Tracker" name="void openedFileChannel(java.nio.file.Path)" map="B"/>
+  <class name="org.springframework.boot.loader.zip.FileDataBlock$FileAccess" map="_B"/>
+  <field class="org.springframework.boot.loader.zip.FileDataBlock$FileAccess" name="bufferSize" map="A"/>
+  <field class="org.springframework.boot.loader.zip.FileDataBlock$FileAccess" name="fileChannelInterrupted" map="B"/>
+  <field class="org.springframework.boot.loader.zip.FileDataBlock$FileAccess" name="randomAccessFile" map="C"/>
+  <field class="org.springframework.boot.loader.zip.FileDataBlock$FileAccess" name="fileChannel" map="D"/>
+  <field class="org.springframework.boot.loader.zip.FileDataBlock$FileAccess" name="buffer" map="E"/>
+  <field class="org.springframework.boot.loader.zip.FileDataBlock$FileAccess" name="BUFFER_SIZE" map="F"/>
+  <field class="org.springframework.boot.loader.zip.FileDataBlock$FileAccess" name="referenceCount" map="G"/>
+  <field class="org.springframework.boot.loader.zip.FileDataBlock$FileAccess" name="lock" map="H"/>
+  <field class="org.springframework.boot.loader.zip.FileDataBlock$FileAccess" name="bufferPosition" map="I"/>
+  <field class="org.springframework.boot.loader.zip.FileDataBlock$FileAccess" name="path" map="J"/>
+  <method class="org.springframework.boot.loader.zip.FileDataBlock$FileAccess" name="void repairFileChannel()" map="A"/>
+  <method class="org.springframework.boot.loader.zip.FileDataBlock$FileAccess" name="void fillBuffer(long)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.FileDataBlock$FileAccess" name="void fillBufferUsingRandomAccessFile(long)" map="B"/>
+  <method class="org.springframework.boot.loader.zip.FileDataBlock$FileAccess" name="int read(java.nio.ByteBuffer, long)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.FileDataBlock$FileAccess" name="void ensureOpen(java.util.function.Supplier)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.FileDataBlock$FileAccess" name="void close()" map="B"/>
+  <method class="org.springframework.boot.loader.zip.FileDataBlock$FileAccess" name="void open()" map="C"/>
+  <method class="org.springframework.boot.loader.zip.FileDataBlock$FileAccess" name="java.lang.String toString()" map="toString"/>
+  <class name="org.springframework.boot.loader.zip.FileDataBlock" map="P"/>
+  <field class="org.springframework.boot.loader.zip.FileDataBlock" name="fileAccess" map="G"/>
+  <field class="org.springframework.boot.loader.zip.FileDataBlock" name="debug" map="H"/>
+  <field class="org.springframework.boot.loader.zip.FileDataBlock" name="size" map="I"/>
+  <field class="org.springframework.boot.loader.zip.FileDataBlock" name="tracker" map="J"/>
+  <field class="org.springframework.boot.loader.zip.FileDataBlock" name="offset" map="K"/>
+  <method class="org.springframework.boot.loader.zip.FileDataBlock" name="org.springframework.boot.loader.zip.FileDataBlock slice(long)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.FileDataBlock" name="long size()" map="A"/>
+  <method class="org.springframework.boot.loader.zip.FileDataBlock" name="int read(java.nio.ByteBuffer, long)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.FileDataBlock" name="void ensureOpen(java.util.function.Supplier)" map="A"/>
+  <method class="org.springframework.boot.loader.zip.FileDataBlock" name="void close()" map="close"/>
+  <method class="org.springframework.boot.loader.zip.FileDataBlock" name="void open()" map="C"/>
+  <method class="org.springframework.boot.loader.zip.FileDataBlock" name="org.springframework.boot.loader.zip.FileDataBlock slice(long, long)" map="A"/>
+  <package name="org.springframework.boot.loader.log" map="B"/>
+  <class name="org.springframework.boot.loader.log.DebugLogger$DisabledDebugLogger" map="_A"/>
+  <method class="org.springframework.boot.loader.log.DebugLogger$DisabledDebugLogger" name="void log(java.lang.String, java.lang.Object, java.lang.Object, java.lang.Object)" map="A"/>
+  <method class="org.springframework.boot.loader.log.DebugLogger$DisabledDebugLogger" name="void log(java.lang.String, java.lang.Object, java.lang.Object)" map="A"/>
+  <method class="org.springframework.boot.loader.log.DebugLogger$DisabledDebugLogger" name="void log(java.lang.String, java.lang.Object)" map="A"/>
+  <method class="org.springframework.boot.loader.log.DebugLogger$DisabledDebugLogger" name="void log(java.lang.String)" map="A"/>
+  <method class="org.springframework.boot.loader.log.DebugLogger$DisabledDebugLogger" name="void log(java.lang.String, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)" map="A"/>
+  <class name="org.springframework.boot.loader.log.DebugLogger$SystemErrDebugLogger" map="_B"/>
+  <field class="org.springframework.boot.loader.log.DebugLogger$SystemErrDebugLogger" name="prefix" map="C"/>
+  <method class="org.springframework.boot.loader.log.DebugLogger$SystemErrDebugLogger" name="void log(java.lang.String, java.lang.Object, java.lang.Object, java.lang.Object)" map="A"/>
+  <method class="org.springframework.boot.loader.log.DebugLogger$SystemErrDebugLogger" name="void log(java.lang.String, java.lang.Object, java.lang.Object)" map="A"/>
+  <method class="org.springframework.boot.loader.log.DebugLogger$SystemErrDebugLogger" name="void log(java.lang.String, java.lang.Object)" map="A"/>
+  <method class="org.springframework.boot.loader.log.DebugLogger$SystemErrDebugLogger" name="void log(java.lang.String)" map="A"/>
+  <method class="org.springframework.boot.loader.log.DebugLogger$SystemErrDebugLogger" name="void log(java.lang.String, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)" map="A"/>
+  <method class="org.springframework.boot.loader.log.DebugLogger$SystemErrDebugLogger" name="void print(java.lang.String)" map="B"/>
+  <class name="org.springframework.boot.loader.log.DebugLogger" map="A"/>
+  <field class="org.springframework.boot.loader.log.DebugLogger" name="disabled" map="A"/>
+  <field class="org.springframework.boot.loader.log.DebugLogger" name="ENABLED_PROPERTY" map="B"/>
+  <method class="org.springframework.boot.loader.log.DebugLogger" name="void log(java.lang.String, java.lang.Object, java.lang.Object, java.lang.Object)" map="A"/>
+  <method class="org.springframework.boot.loader.log.DebugLogger" name="void log(java.lang.String, java.lang.Object, java.lang.Object)" map="A"/>
+  <method class="org.springframework.boot.loader.log.DebugLogger" name="void log(java.lang.String, java.lang.Object)" map="A"/>
+  <method class="org.springframework.boot.loader.log.DebugLogger" name="void log(java.lang.String)" map="A"/>
+  <method class="org.springframework.boot.loader.log.DebugLogger" name="void log(java.lang.String, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)" map="A"/>
+  <method class="org.springframework.boot.loader.log.DebugLogger" name="org.springframework.boot.loader.log.DebugLogger get(java.lang.Class)" map="A"/>
+  <package name="org.springframework.boot.loader.ref" map="C"/>
+  <class name="org.springframework.boot.loader.ref.Cleaner" map="A"/>
+  <field class="org.springframework.boot.loader.ref.Cleaner" name="instance" map="A"/>
+  <method class="org.springframework.boot.loader.ref.Cleaner" name="java.lang.ref.Cleaner$Cleanable register(java.lang.Object, java.lang.Runnable)" map="A"/>
+  <class name="org.springframework.boot.loader.ref.DefaultCleaner" map="B"/>
+  <field class="org.springframework.boot.loader.ref.DefaultCleaner" name="instance" map="A"/>
+  <field class="org.springframework.boot.loader.ref.DefaultCleaner" name="cleaner" map="B"/>
+  <field class="org.springframework.boot.loader.ref.DefaultCleaner" name="tracker" map="C"/>
+  <method class="org.springframework.boot.loader.ref.DefaultCleaner" name="java.lang.ref.Cleaner$Cleanable register(java.lang.Object, java.lang.Runnable)" map="A"/>
+  <package name="org.springframework.boot.loader.jarmode" map="D"/>
+  <class name="org.springframework.boot.loader.jarmode.JarMode" map="A"/>
+  <method class="org.springframework.boot.loader.jarmode.JarMode" name="void run(java.lang.String, java.lang.String[])" map="A"/>
+  <method class="org.springframework.boot.loader.jarmode.JarMode" name="boolean accepts(java.lang.String)" map="A"/>
+  <class name="org.springframework.boot.loader.jarmode.JarModeErrorException" map="B"/>
+  <package name="org.springframework.boot.loader.jar" map="E"/>
+  <class name="org.springframework.boot.loader.jar.NestedJarFileResources" map="A"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFileResources" name="zipContent" map="A"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFileResources" name="inputStreams" map="B"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFileResources" name="zipContentForManifest" map="C"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFileResources" name="INFLATER_CACHE_LIMIT" map="D"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFileResources" name="inflaterCache" map="E"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFileResources" name="java.lang.Runnable createInflatorCleanupAction(java.util.zip.Inflater)" map="A"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFileResources" name="java.io.IOException releaseInputStreams(java.io.IOException)" map="A"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFileResources" name="java.io.IOException releaseInflators(java.io.IOException)" map="B"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFileResources" name="void releaseAll()" map="A"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFileResources" name="java.io.IOException addToExceptionChain(java.io.IOException, java.io.IOException)" map="A"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFileResources" name="java.util.zip.Inflater getOrCreateInflater()" map="B"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFileResources" name="void run()" map="run"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFileResources" name="void endOrCacheInflater(java.util.zip.Inflater)" map="B"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFileResources" name="void removeInputStream(java.io.InputStream)" map="A"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFileResources" name="java.io.IOException releaseZipContent(java.io.IOException)" map="C"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFileResources" name="org.springframework.boot.loader.zip.ZipContent zipContent()" map="C"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFileResources" name="org.springframework.boot.loader.zip.ZipContent zipContentForManifest()" map="D"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFileResources" name="void lambda$createInflatorCleanupAction$0(java.util.zip.Inflater)" map="C"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFileResources" name="java.io.IOException releaseZipContentForManifest(java.io.IOException)" map="D"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFileResources" name="void addInputStream(java.io.InputStream)" map="B"/>
+  <class name="org.springframework.boot.loader.jar.MetaInfVersionsInfo" map="B"/>
+  <field class="org.springframework.boot.loader.jar.MetaInfVersionsInfo" name="versions" map="A"/>
+  <field class="org.springframework.boot.loader.jar.MetaInfVersionsInfo" name="META_INF_VERSIONS" map="B"/>
+  <field class="org.springframework.boot.loader.jar.MetaInfVersionsInfo" name="directories" map="C"/>
+  <field class="org.springframework.boot.loader.jar.MetaInfVersionsInfo" name="NONE" map="D"/>
+  <method class="org.springframework.boot.loader.jar.MetaInfVersionsInfo" name="org.springframework.boot.loader.jar.MetaInfVersionsInfo get(org.springframework.boot.loader.zip.ZipContent)" map="A"/>
+  <method class="org.springframework.boot.loader.jar.MetaInfVersionsInfo" name="org.springframework.boot.loader.jar.MetaInfVersionsInfo get(int, java.util.function.IntFunction)" map="A"/>
+  <method class="org.springframework.boot.loader.jar.MetaInfVersionsInfo" name="java.lang.String[] directories()" map="A"/>
+  <method class="org.springframework.boot.loader.jar.MetaInfVersionsInfo" name="java.lang.String[] lambda$new$1(int)" map="A"/>
+  <method class="org.springframework.boot.loader.jar.MetaInfVersionsInfo" name="java.lang.String lambda$new$0(java.lang.Integer)" map="A"/>
+  <method class="org.springframework.boot.loader.jar.MetaInfVersionsInfo" name="int[] versions()" map="B"/>
+  <class name="org.springframework.boot.loader.jar.ZipInflaterInputStream" map="C"/>
+  <field class="org.springframework.boot.loader.jar.ZipInflaterInputStream" name="extraBytesWritten" map="A"/>
+  <field class="org.springframework.boot.loader.jar.ZipInflaterInputStream" name="available" map="B"/>
+  <method class="org.springframework.boot.loader.jar.ZipInflaterInputStream" name="int getInflaterBufferSize(long)" map="A"/>
+  <method class="org.springframework.boot.loader.jar.ZipInflaterInputStream" name="void fill()" map="fill"/>
+  <method class="org.springframework.boot.loader.jar.ZipInflaterInputStream" name="int available()" map="available"/>
+  <method class="org.springframework.boot.loader.jar.ZipInflaterInputStream" name="int read(byte[], int, int)" map="read"/>
+  <class name="org.springframework.boot.loader.jar.JarEntriesStream$InputStreamSupplier" map="_A"/>
+  <method class="org.springframework.boot.loader.jar.JarEntriesStream$InputStreamSupplier" name="java.io.InputStream get()" map="A"/>
+  <class name="org.springframework.boot.loader.jar.JarEntriesStream" map="D"/>
+  <field class="org.springframework.boot.loader.jar.JarEntriesStream" name="in" map="A"/>
+  <field class="org.springframework.boot.loader.jar.JarEntriesStream" name="compareBuffer" map="B"/>
+  <field class="org.springframework.boot.loader.jar.JarEntriesStream" name="entry" map="C"/>
+  <field class="org.springframework.boot.loader.jar.JarEntriesStream" name="inBuffer" map="D"/>
+  <field class="org.springframework.boot.loader.jar.JarEntriesStream" name="BUFFER_SIZE" map="E"/>
+  <field class="org.springframework.boot.loader.jar.JarEntriesStream" name="inflater" map="F"/>
+  <method class="org.springframework.boot.loader.jar.JarEntriesStream" name="void assertSameContent(java.io.DataInputStream)" map="A"/>
+  <method class="org.springframework.boot.loader.jar.JarEntriesStream" name="boolean matches(boolean, int, int, org.springframework.boot.loader.jar.JarEntriesStream$InputStreamSupplier)" map="A"/>
+  <method class="org.springframework.boot.loader.jar.JarEntriesStream" name="java.io.InputStream getInputStream(int, org.springframework.boot.loader.jar.JarEntriesStream$InputStreamSupplier)" map="A"/>
+  <method class="org.springframework.boot.loader.jar.JarEntriesStream" name="void close()" map="close"/>
+  <method class="org.springframework.boot.loader.jar.JarEntriesStream" name="void fail(java.lang.String)" map="A"/>
+  <method class="org.springframework.boot.loader.jar.JarEntriesStream" name="java.util.jar.JarEntry getNextEntry()" map="A"/>
+  <class name="org.springframework.boot.loader.jar.NestedJarFile$NestedJarEntry" map="_A"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFile$NestedJarEntry" name="this$0" map="A"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFile$NestedJarEntry" name="populated" map="B"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFile$NestedJarEntry" name="contentEntry" map="C"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFile$NestedJarEntry" name="CANNOT_BE_MODIFIED_EXCEPTION" map="D"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFile$NestedJarEntry" name="name" map="E"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$NestedJarEntry" name="java.lang.String getComment()" map="getComment"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$NestedJarEntry" name="void setMethod(int)" map="setMethod"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$NestedJarEntry" name="void setCompressedSize(long)" map="setCompressedSize"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$NestedJarEntry" name="void setSize(long)" map="setSize"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$NestedJarEntry" name="void setExtra(byte[])" map="setExtra"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$NestedJarEntry" name="java.nio.file.attribute.FileTime getLastAccessTime()" map="getLastAccessTime"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$NestedJarEntry" name="java.util.zip.ZipEntry setLastAccessTime(java.nio.file.attribute.FileTime)" map="setLastAccessTime"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$NestedJarEntry" name="int getMethod()" map="getMethod"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$NestedJarEntry" name="java.util.zip.ZipEntry setLastModifiedTime(java.nio.file.attribute.FileTime)" map="setLastModifiedTime"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$NestedJarEntry" name="java.nio.file.attribute.FileTime getCreationTime()" map="getCreationTime"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$NestedJarEntry" name="long getTime()" map="getTime"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$NestedJarEntry" name="long getSize()" map="getSize"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$NestedJarEntry" name="void setTime(long)" map="setTime"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$NestedJarEntry" name="java.time.LocalDateTime getTimeLocal()" map="getTimeLocal"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$NestedJarEntry" name="java.lang.String getName()" map="getName"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$NestedJarEntry" name="long getCrc()" map="getCrc"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$NestedJarEntry" name="java.util.zip.ZipEntry setCreationTime(java.nio.file.attribute.FileTime)" map="setCreationTime"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$NestedJarEntry" name="long getCompressedSize()" map="getCompressedSize"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$NestedJarEntry" name="void setComment(java.lang.String)" map="setComment"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$NestedJarEntry" name="java.security.CodeSigner[] getCodeSigners()" map="getCodeSigners"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$NestedJarEntry" name="java.security.cert.Certificate[] getCertificates()" map="getCertificates"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$NestedJarEntry" name="boolean isOwnedBy(org.springframework.boot.loader.jar.NestedJarFile)" map="A"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$NestedJarEntry" name="byte[] getExtra()" map="getExtra"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$NestedJarEntry" name="void setCrc(long)" map="setCrc"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$NestedJarEntry" name="org.springframework.boot.loader.zip.ZipContent$Entry contentEntry()" map="A"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$NestedJarEntry" name="void setTimeLocal(java.time.LocalDateTime)" map="setTimeLocal"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$NestedJarEntry" name="void populate()" map="B"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$NestedJarEntry" name="java.util.jar.Attributes getAttributes()" map="getAttributes"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$NestedJarEntry" name="org.springframework.boot.loader.jar.SecurityInfo getSecurityInfo()" map="C"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$NestedJarEntry" name="java.lang.String getRealName()" map="getRealName"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$NestedJarEntry" name="java.nio.file.attribute.FileTime getLastModifiedTime()" map="getLastModifiedTime"/>
+  <class name="org.springframework.boot.loader.jar.NestedJarFile$RawZipDataInputStream" map="_B"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFile$RawZipDataInputStream" name="this$0" map="A"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFile$RawZipDataInputStream" name="closed" map="B"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$RawZipDataInputStream" name="void close()" map="close"/>
+  <class name="org.springframework.boot.loader.jar.NestedJarFile$ZipContentEntriesSpliterator" map="_C"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFile$ZipContentEntriesSpliterator" name="this$0" map="A"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFile$ZipContentEntriesSpliterator" name="zipContent" map="B"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFile$ZipContentEntriesSpliterator" name="ADDITIONAL_CHARACTERISTICS" map="C"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFile$ZipContentEntriesSpliterator" name="cursor" map="D"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$ZipContentEntriesSpliterator" name="boolean tryAdvance(java.util.function.Consumer)" map="tryAdvance"/>
+  <class name="org.springframework.boot.loader.jar.NestedJarFile$JarEntryInputStream" map="_D"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFile$JarEntryInputStream" name="this$0" map="A"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFile$JarEntryInputStream" name="uncompressedSize" map="B"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFile$JarEntryInputStream" name="closed" map="C"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFile$JarEntryInputStream" name="remaining" map="D"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFile$JarEntryInputStream" name="content" map="E"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFile$JarEntryInputStream" name="pos" map="F"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$JarEntryInputStream" name="void close()" map="close"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$JarEntryInputStream" name="int getUncompressedSize()" map="A"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$JarEntryInputStream" name="int read()" map="read"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$JarEntryInputStream" name="long maxForwardSkip(long)" map="A"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$JarEntryInputStream" name="void ensureOpen()" map="B"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$JarEntryInputStream" name="long maxBackwardSkip(long)" map="B"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$JarEntryInputStream" name="int read(byte[], int, int)" map="read"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$JarEntryInputStream" name="long skip(long)" map="skip"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$JarEntryInputStream" name="int available()" map="available"/>
+  <class name="org.springframework.boot.loader.jar.NestedJarFile$JarEntriesEnumeration" map="_E"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFile$JarEntriesEnumeration" name="this$0" map="A"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFile$JarEntriesEnumeration" name="zipContent" map="B"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFile$JarEntriesEnumeration" name="cursor" map="C"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$JarEntriesEnumeration" name="org.springframework.boot.loader.jar.NestedJarFile$NestedJarEntry nextElement()" map="A"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$JarEntriesEnumeration" name="boolean hasMoreElements()" map="hasMoreElements"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$JarEntriesEnumeration" name="java.lang.Object nextElement()" map="nextElement"/>
+  <class name="org.springframework.boot.loader.jar.NestedJarFile$JarEntryInflaterInputStream" map="_F"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFile$JarEntryInflaterInputStream" name="this$0" map="C"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFile$JarEntryInflaterInputStream" name="closed" map="D"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFile$JarEntryInflaterInputStream" name="cleanup" map="E"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile$JarEntryInflaterInputStream" name="void close()" map="close"/>
+  <class name="org.springframework.boot.loader.jar.NestedJarFile" map="E"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFile" name="manifestInfo" map="A"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFile" name="name" map="B"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFile" name="DECIMAL" map="C"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFile" name="debug" map="D"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFile" name="cleanup" map="E"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFile" name="resources" map="F"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFile" name="BASE_VERSION" map="G"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFile" name="META_INF_VERSIONS" map="H"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFile" name="closed" map="I"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFile" name="version" map="J"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFile" name="cleaner" map="K"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFile" name="metaInfVersionsInfo" map="L"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFile" name="META_INF" map="M"/>
+  <field class="org.springframework.boot.loader.jar.NestedJarFile" name="lastEntry" map="N"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile" name="java.util.jar.Manifest getManifest()" map="getManifest"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile" name="java.lang.String getComment()" map="getComment"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile" name="org.springframework.boot.loader.jar.MetaInfVersionsInfo getMetaInfVersionsInfo()" map="A"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile" name="java.lang.String getBaseName(org.springframework.boot.loader.zip.ZipContent$Entry)" map="A"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile" name="java.util.zip.ZipEntry getEntry(java.lang.String)" map="getEntry"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile" name="java.util.jar.JarEntry lambda$stream$0(org.springframework.boot.loader.zip.ZipContent$Entry)" map="B"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile" name="boolean hasEntry(java.lang.String)" map="A"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile" name="void clearCache()" map="B"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile" name="void close()" map="close"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile" name="org.springframework.boot.loader.jar.ManifestInfo getManifestInfo(org.springframework.boot.loader.zip.ZipContent)" map="A"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile" name="java.util.stream.Stream streamContentEntries()" map="C"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile" name="org.springframework.boot.loader.jar.NestedJarFile$NestedJarEntry getNestedJarEntry(java.lang.String)" map="B"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile" name="void ensureOpen()" map="D"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile" name="java.util.Enumeration entries()" map="entries"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile" name="java.io.InputStream getRawZipDataInputStream()" map="E"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile" name="org.springframework.boot.loader.zip.ZipContent$Entry getVersionedContentEntry(java.lang.String)" map="C"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile" name="org.springframework.boot.loader.jar.ManifestInfo getManifestInfo()" map="F"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile" name="java.util.jar.JarEntry getEntry(java.lang.String)" map="D"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile" name="java.io.InputStream getInputStream(java.util.zip.ZipEntry)" map="getInputStream"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile" name="java.lang.String getName()" map="getName"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile" name="java.io.InputStream getInputStream(org.springframework.boot.loader.zip.ZipContent$Entry)" map="C"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile" name="java.util.jar.JarEntry getJarEntry(java.lang.String)" map="getJarEntry"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile" name="int size()" map="size"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile" name="java.util.stream.Stream versionedStream()" map="versionedStream"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile" name="java.util.stream.Stream stream()" map="stream"/>
+  <method class="org.springframework.boot.loader.jar.NestedJarFile" name="org.springframework.boot.loader.zip.ZipContent$Entry getContentEntry(java.lang.String, java.lang.String)" map="A"/>
+  <class name="org.springframework.boot.loader.jar.ManifestInfo" map="F"/>
+  <field class="org.springframework.boot.loader.jar.ManifestInfo" name="multiRelease" map="A"/>
+  <field class="org.springframework.boot.loader.jar.ManifestInfo" name="manifest" map="B"/>
+  <field class="org.springframework.boot.loader.jar.ManifestInfo" name="NONE" map="C"/>
+  <field class="org.springframework.boot.loader.jar.ManifestInfo" name="MULTI_RELEASE" map="D"/>
+  <method class="org.springframework.boot.loader.jar.ManifestInfo" name="boolean isMultiRelease()" map="A"/>
+  <method class="org.springframework.boot.loader.jar.ManifestInfo" name="java.util.jar.Manifest getManifest()" map="B"/>
+  <class name="org.springframework.boot.loader.jar.SecurityInfo" map="G"/>
+  <field class="org.springframework.boot.loader.jar.SecurityInfo" name="certificateLookups" map="A"/>
+  <field class="org.springframework.boot.loader.jar.SecurityInfo" name="NONE" map="B"/>
+  <field class="org.springframework.boot.loader.jar.SecurityInfo" name="codeSignerLookups" map="C"/>
+  <method class="org.springframework.boot.loader.jar.SecurityInfo" name="org.springframework.boot.loader.jar.SecurityInfo get(org.springframework.boot.loader.zip.ZipContent)" map="A"/>
+  <method class="org.springframework.boot.loader.jar.SecurityInfo" name="java.security.cert.Certificate[] getCertificates(org.springframework.boot.loader.zip.ZipContent$Entry)" map="A"/>
+  <method class="org.springframework.boot.loader.jar.SecurityInfo" name="java.io.InputStream lambda$load$0(org.springframework.boot.loader.zip.ZipContent$Entry)" map="B"/>
+  <method class="org.springframework.boot.loader.jar.SecurityInfo" name="org.springframework.boot.loader.jar.SecurityInfo load(org.springframework.boot.loader.zip.ZipContent)" map="B"/>
+  <method class="org.springframework.boot.loader.jar.SecurityInfo" name="java.lang.Object[] clone(java.lang.Object[])" map="A"/>
+  <method class="org.springframework.boot.loader.jar.SecurityInfo" name="java.security.CodeSigner[] getCodeSigners(org.springframework.boot.loader.zip.ZipContent$Entry)" map="C"/>
+  <package name="org.springframework.boot.loader.net" map="F"/>
+  <package name="org.springframework.boot.loader.net.util" map="A"/>
+  <class name="org.springframework.boot.loader.net.util.UrlDecoder" map="A"/>
+  <method class="org.springframework.boot.loader.net.util.UrlDecoder" name="java.lang.String decode(java.lang.String)" map="A"/>
+  <method class="org.springframework.boot.loader.net.util.UrlDecoder" name="void assertNoError(java.nio.charset.CoderResult)" map="A"/>
+  <method class="org.springframework.boot.loader.net.util.UrlDecoder" name="byte unescape(java.lang.String, int)" map="A"/>
+  <method class="org.springframework.boot.loader.net.util.UrlDecoder" name="void decodeToCharBuffer(java.nio.ByteBuffer, java.nio.CharBuffer, java.nio.charset.CharsetDecoder)" map="A"/>
+  <method class="org.springframework.boot.loader.net.util.UrlDecoder" name="int fillByteBuffer(java.nio.ByteBuffer, java.lang.String, int, int)" map="A"/>
+  <package name="org.springframework.boot.loader.net.protocol" map="B"/>
+  <package name="org.springframework.boot.loader.net.protocol.jar" map="A"/>
+  <class name="org.springframework.boot.loader.net.protocol.jar.JarUrlClassLoader$OptimizedEnumeration" map="_A"/>
+  <field class="org.springframework.boot.loader.net.protocol.jar.JarUrlClassLoader$OptimizedEnumeration" name="delegate" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlClassLoader$OptimizedEnumeration" name="java.net.URL nextElement()" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlClassLoader$OptimizedEnumeration" name="boolean hasMoreElements()" map="hasMoreElements"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlClassLoader$OptimizedEnumeration" name="java.lang.Object nextElement()" map="nextElement"/>
+  <class name="org.springframework.boot.loader.net.protocol.jar.JarUrlClassLoader" map="A"/>
+  <field class="org.springframework.boot.loader.net.protocol.jar.JarUrlClassLoader" name="jarFiles" map="A"/>
+  <field class="org.springframework.boot.loader.net.protocol.jar.JarUrlClassLoader" name="undefinablePackages" map="B"/>
+  <field class="org.springframework.boot.loader.net.protocol.jar.JarUrlClassLoader" name="urls" map="C"/>
+  <field class="org.springframework.boot.loader.net.protocol.jar.JarUrlClassLoader" name="hasJarUrls" map="D"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlClassLoader" name="java.util.jar.JarFile getJarFile(java.net.URL)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlClassLoader" name="java.util.Enumeration findResources(java.lang.String)" map="findResources"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlClassLoader" name="boolean isJarUrl(java.net.URL)" map="B"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlClassLoader" name="java.lang.Class loadClass(java.lang.String, boolean)" map="loadClass"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlClassLoader" name="void close()" map="close"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlClassLoader" name="void clearJarFiles()" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlClassLoader" name="void clearCache(java.net.JarURLConnection)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlClassLoader" name="void clearCache()" map="B"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlClassLoader" name="void definePackage(java.lang.String, java.lang.String)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlClassLoader" name="java.net.URL findResource(java.lang.String)" map="findResource"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlClassLoader" name="void tolerateRaceConditionDueToBeingParallelCapable(java.lang.IllegalArgumentException, java.lang.String)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlClassLoader" name="void clearCache(java.net.URL)" map="C"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlClassLoader" name="void definePackageIfNecessary(java.lang.String)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlClassLoader" name="boolean hasEntry(java.util.jar.JarFile, java.lang.String)" map="A"/>
+  <class name="org.springframework.boot.loader.net.protocol.jar.Canonicalizer" map="B"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.Canonicalizer" name="java.lang.String removeTrailingSlashDotDot(java.lang.String)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.Canonicalizer" name="java.lang.String removeTrailingSlashDot(java.lang.String)" map="B"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.Canonicalizer" name="java.lang.String removeEmbeddedSlashDotSlash(java.lang.String)" map="C"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.Canonicalizer" name="java.lang.String removeEmbeddedSlashDotDotSlash(java.lang.String)" map="D"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.Canonicalizer" name="java.lang.String canonicalize(java.lang.String)" map="E"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.Canonicalizer" name="java.lang.String canonicalizeAfter(java.lang.String, int)" map="A"/>
+  <class name="org.springframework.boot.loader.net.protocol.jar.UrlJarFileFactory" map="C"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.UrlJarFileFactory" name="java.util.jar.JarFile createJarFileForStream(java.net.URL, java.lang.Runtime$Version, java.util.function.Consumer)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.UrlJarFileFactory" name="java.util.jar.JarFile createJarFileForLocalFile(java.net.URL, java.lang.Runtime$Version, java.util.function.Consumer)" map="B"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.UrlJarFileFactory" name="java.lang.Runtime$Version getVersion(java.net.URL)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.UrlJarFileFactory" name="boolean isLocalFileUrl(java.net.URL)" map="B"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.UrlJarFileFactory" name="boolean isLocal(java.lang.String)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.UrlJarFileFactory" name="java.util.jar.JarFile createJarFileForStream(java.io.InputStream, java.lang.Runtime$Version, java.util.function.Consumer)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.UrlJarFileFactory" name="void deleteIfPossible(java.nio.file.Path, java.lang.Throwable)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.UrlJarFileFactory" name="java.util.jar.JarFile createJarFile(java.net.URL, java.util.function.Consumer)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.UrlJarFileFactory" name="java.util.jar.JarFile createJarFileForNested(java.net.URL, java.lang.Runtime$Version, java.util.function.Consumer)" map="C"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.UrlJarFileFactory" name="boolean isNestedUrl(java.net.URL)" map="C"/>
+  <class name="org.springframework.boot.loader.net.protocol.jar.UrlJarEntry" map="D"/>
+  <field class="org.springframework.boot.loader.net.protocol.jar.UrlJarEntry" name="manifest" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.UrlJarEntry" name="java.util.jar.Attributes getAttributes()" map="getAttributes"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.UrlJarEntry" name="org.springframework.boot.loader.net.protocol.jar.UrlJarEntry of(java.util.zip.ZipEntry, org.springframework.boot.loader.net.protocol.jar.UrlJarManifest)" map="A"/>
+  <class name="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection$EmptyUrlStreamHandler" map="_A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection$EmptyUrlStreamHandler" name="java.net.URLConnection openConnection(java.net.URL)" map="openConnection"/>
+  <class name="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection$ConnectionInputStream" map="_B"/>
+  <field class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection$ConnectionInputStream" name="this$0" map="B"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection$ConnectionInputStream" name="void close()" map="close"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection$ConnectionInputStream" name="java.io.InputStream getDelegateInputStream()" map="A"/>
+  <class name="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" map="E"/>
+  <field class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="jarFile" map="A"/>
+  <field class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="jarEntry" map="B"/>
+  <field class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="jarFileConnection" map="C"/>
+  <field class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="FILE_NOT_FOUND_EXCEPTION" map="D"/>
+  <field class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="jarFiles" map="E"/>
+  <field class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="NOT_FOUND_URL" map="F"/>
+  <field class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="entryName" map="G"/>
+  <field class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="NOT_FOUND_CONNECTION" map="H"/>
+  <field class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="emptyInputStream" map="I"/>
+  <field class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="notFound" map="J"/>
+  <field class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="contentType" map="K"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="java.lang.String deduceContentType()" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="java.lang.Object getContent()" map="getContent"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="void setAllowUserInteraction(boolean)" map="setAllowUserInteraction"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="java.io.InputStream getInputStream()" map="getInputStream"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="boolean getAllowUserInteraction()" map="getAllowUserInteraction"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="java.lang.String deduceContentTypeFromEntryName()" map="B"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="void connect()" map="connect"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="java.lang.String getHeaderField(java.lang.String)" map="getHeaderField"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection notFoundConnection(java.lang.String, java.lang.String)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="java.util.jar.JarFile getJarFile()" map="getJarFile"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="void throwFileNotFound()" map="C"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="void assertCachedJarFileHasEntry(java.net.URL, java.lang.String)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="void clearCache()" map="D"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="void setRequestProperty(java.lang.String, java.lang.String)" map="setRequestProperty"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="void setIfModifiedSince(long)" map="setIfModifiedSince"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="java.lang.String getRequestProperty(java.lang.String)" map="getRequestProperty"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="java.util.jar.JarEntry getJarEntry(java.net.URL)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="void setDefaultUseCaches(boolean)" map="setDefaultUseCaches"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="java.util.Map getRequestProperties()" map="getRequestProperties"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection open(java.net.URL)" map="B"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="java.lang.String deduceContentTypeFromStream()" map="E"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="void setUseCaches(boolean)" map="setUseCaches"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="int getContentLength()" map="getContentLength"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="long getLastModified()" map="getLastModified"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="boolean hasEntry(java.util.jar.JarFile, java.lang.String)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="long getContentLengthLong()" map="getContentLengthLong"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="java.util.jar.JarEntry getJarEntry()" map="getJarEntry"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="java.io.FileNotFoundException lambda$static$0()" map="F"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="void addRequestProperty(java.lang.String, java.lang.String)" map="addRequestProperty"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="java.security.Permission getPermission()" map="getPermission"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="java.io.FileNotFoundException lambda$notFoundConnection$1(java.lang.String, java.lang.String)" map="B"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="boolean getDefaultUseCaches()" map="getDefaultUseCaches"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="boolean getUseCaches()" map="getUseCaches"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrlConnection" name="java.lang.String getContentType()" map="getContentType"/>
+  <class name="org.springframework.boot.loader.net.protocol.jar.UrlNestedJarFile" map="F"/>
+  <field class="org.springframework.boot.loader.net.protocol.jar.UrlNestedJarFile" name="closeAction" map="O"/>
+  <field class="org.springframework.boot.loader.net.protocol.jar.UrlNestedJarFile" name="manifest" map="P"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.UrlNestedJarFile" name="java.util.jar.JarEntry getEntry(java.lang.String)" map="D"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.UrlNestedJarFile" name="java.util.zip.ZipEntry getEntry(java.lang.String)" map="getEntry"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.UrlNestedJarFile" name="java.util.jar.Manifest getManifest()" map="getManifest"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.UrlNestedJarFile" name="java.util.jar.Manifest lambda$new$0()" map="G"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.UrlNestedJarFile" name="void close()" map="close"/>
+  <class name="org.springframework.boot.loader.net.protocol.jar.UrlJarFile" map="G"/>
+  <field class="org.springframework.boot.loader.net.protocol.jar.UrlJarFile" name="closeAction" map="A"/>
+  <field class="org.springframework.boot.loader.net.protocol.jar.UrlJarFile" name="manifest" map="B"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.UrlJarFile" name="java.util.jar.Manifest getManifest()" map="getManifest"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.UrlJarFile" name="java.util.zip.ZipEntry getEntry(java.lang.String)" map="getEntry"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.UrlJarFile" name="java.util.jar.Manifest lambda$new$0()" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.UrlJarFile" name="void close()" map="close"/>
+  <class name="org.springframework.boot.loader.net.protocol.jar.JarFileUrlKey" map="H"/>
+  <field class="org.springframework.boot.loader.net.protocol.jar.JarFileUrlKey" name="cache" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarFileUrlKey" name="java.lang.String get(java.net.URL)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarFileUrlKey" name="void clearCache()" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarFileUrlKey" name="java.lang.String create(java.net.URL)" map="B"/>
+  <class name="org.springframework.boot.loader.net.protocol.jar.Optimizations" map="I"/>
+  <field class="org.springframework.boot.loader.net.protocol.jar.Optimizations" name="status" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.Optimizations" name="boolean isEnabled()" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.Optimizations" name="void disable()" map="B"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.Optimizations" name="boolean isEnabled(boolean)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.Optimizations" name="void enable(boolean)" map="B"/>
+  <class name="org.springframework.boot.loader.net.protocol.jar.UrlJarFiles$Cache" map="_A"/>
+  <field class="org.springframework.boot.loader.net.protocol.jar.UrlJarFiles$Cache" name="jarFileToJarFileUrl" map="A"/>
+  <field class="org.springframework.boot.loader.net.protocol.jar.UrlJarFiles$Cache" name="jarFileUrlToJarFile" map="B"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.UrlJarFiles$Cache" name="void remove(java.util.jar.JarFile)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.UrlJarFiles$Cache" name="void clear()" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.UrlJarFiles$Cache" name="java.net.URL get(java.util.jar.JarFile)" map="B"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.UrlJarFiles$Cache" name="java.util.jar.JarFile get(java.net.URL)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.UrlJarFiles$Cache" name="boolean putIfAbsent(java.net.URL, java.util.jar.JarFile)" map="A"/>
+  <class name="org.springframework.boot.loader.net.protocol.jar.UrlJarFiles" map="J"/>
+  <field class="org.springframework.boot.loader.net.protocol.jar.UrlJarFiles" name="cache" map="A"/>
+  <field class="org.springframework.boot.loader.net.protocol.jar.UrlJarFiles" name="factory" map="B"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.UrlJarFiles" name="java.util.jar.JarFile getOrCreate(boolean, java.net.URL)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.UrlJarFiles" name="void onClose(java.util.jar.JarFile)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.UrlJarFiles" name="boolean cacheIfAbsent(boolean, java.net.URL, java.util.jar.JarFile)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.UrlJarFiles" name="java.util.jar.JarFile getCached(java.net.URL)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.UrlJarFiles" name="void closeIfNotCached(java.net.URL, java.util.jar.JarFile)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.UrlJarFiles" name="void clearCache()" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.UrlJarFiles" name="java.net.URLConnection openConnection(java.util.jar.JarFile)" map="B"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.UrlJarFiles" name="java.net.URLConnection reconnect(java.util.jar.JarFile, java.net.URLConnection)" map="A"/>
+  <class name="org.springframework.boot.loader.net.protocol.jar.LazyDelegatingInputStream" map="K"/>
+  <field class="org.springframework.boot.loader.net.protocol.jar.LazyDelegatingInputStream" name="in" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.LazyDelegatingInputStream" name="int read(byte[])" map="read"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.LazyDelegatingInputStream" name="void reset()" map="reset"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.LazyDelegatingInputStream" name="void close()" map="close"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.LazyDelegatingInputStream" name="boolean markSupported()" map="markSupported"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.LazyDelegatingInputStream" name="void mark(int)" map="mark"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.LazyDelegatingInputStream" name="int read()" map="read"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.LazyDelegatingInputStream" name="java.io.InputStream getDelegateInputStream()" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.LazyDelegatingInputStream" name="int read(byte[], int, int)" map="read"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.LazyDelegatingInputStream" name="java.io.InputStream in()" map="B"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.LazyDelegatingInputStream" name="long skip(long)" map="skip"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.LazyDelegatingInputStream" name="int available()" map="available"/>
+  <class name="org.springframework.boot.loader.net.protocol.jar.Handler" map="L"/>
+  <field class="org.springframework.boot.loader.net.protocol.jar.Handler" name="PROTOCOL" map="A"/>
+  <field class="org.springframework.boot.loader.net.protocol.jar.Handler" name="SEPARATOR" map="B"/>
+  <field class="org.springframework.boot.loader.net.protocol.jar.Handler" name="INSTANCE" map="C"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.Handler" name="java.lang.String extractAnchorOnlyPath(java.net.URL)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.Handler" name="int hashCode(java.net.URL)" map="hashCode"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.Handler" name="boolean sameFile(java.net.URL, java.net.URL)" map="sameFile"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.Handler" name="java.lang.String extractAbsolutePath(java.lang.String, int, int)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.Handler" name="void clearCache()" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.Handler" name="java.lang.String extractRelativePath(java.net.URL, java.lang.String, int, int)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.Handler" name="java.lang.String extractContextPath(java.net.URL, java.lang.String, int)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.Handler" name="int indexOfSeparator(java.lang.String, int, int)" map="B"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.Handler" name="java.lang.String extractPath(java.net.URL, java.lang.String, int, int, int)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.Handler" name="java.net.URLConnection openConnection(java.net.URL)" map="openConnection"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.Handler" name="int indexOfSeparator(java.lang.String)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.Handler" name="void parseURL(java.net.URL, java.lang.String, int, int)" map="parseURL"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.Handler" name="void assertInnerUrlIsNotMalformed(java.lang.String, java.lang.String)" map="A"/>
+  <class name="org.springframework.boot.loader.net.protocol.jar.JarUrl" map="M"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrl" name="java.net.URL create(java.io.File, java.lang.String, java.lang.String)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrl" name="java.lang.String getJarReference(java.io.File, java.lang.String)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrl" name="java.net.URL create(java.io.File)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrl" name="java.net.URL create(java.io.File, java.lang.String)" map="B"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.JarUrl" name="java.net.URL create(java.io.File, java.util.jar.JarEntry)" map="A"/>
+  <class name="org.springframework.boot.loader.net.protocol.jar.UrlJarManifest$ManifestSupplier" map="_A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.UrlJarManifest$ManifestSupplier" name="java.util.jar.Manifest getManifest()" map="A"/>
+  <class name="org.springframework.boot.loader.net.protocol.jar.UrlJarManifest" map="N"/>
+  <field class="org.springframework.boot.loader.net.protocol.jar.UrlJarManifest" name="supplier" map="A"/>
+  <field class="org.springframework.boot.loader.net.protocol.jar.UrlJarManifest" name="supplied" map="B"/>
+  <field class="org.springframework.boot.loader.net.protocol.jar.UrlJarManifest" name="NONE" map="C"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.UrlJarManifest" name="java.util.jar.Attributes cloneAttributes(java.util.jar.Attributes)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.UrlJarManifest" name="void lambda$get$0(java.util.jar.Manifest, java.lang.String, java.util.jar.Attributes)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.UrlJarManifest" name="java.util.jar.Manifest supply()" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.UrlJarManifest" name="java.util.jar.Manifest get()" map="B"/>
+  <method class="org.springframework.boot.loader.net.protocol.jar.UrlJarManifest" name="java.util.jar.Attributes getEntryAttributes(java.util.jar.JarEntry)" map="A"/>
+  <package name="org.springframework.boot.loader.net.protocol.nested" map="B"/>
+  <class name="org.springframework.boot.loader.net.protocol.nested.NestedUrlConnectionResources" map="A"/>
+  <field class="org.springframework.boot.loader.net.protocol.nested.NestedUrlConnectionResources" name="zipContent" map="A"/>
+  <field class="org.springframework.boot.loader.net.protocol.nested.NestedUrlConnectionResources" name="location" map="B"/>
+  <field class="org.springframework.boot.loader.net.protocol.nested.NestedUrlConnectionResources" name="inputStream" map="C"/>
+  <field class="org.springframework.boot.loader.net.protocol.nested.NestedUrlConnectionResources" name="size" map="D"/>
+  <method class="org.springframework.boot.loader.net.protocol.nested.NestedUrlConnectionResources" name="org.springframework.boot.loader.net.protocol.nested.NestedLocation getLocation()" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.nested.NestedUrlConnectionResources" name="long getContentLength()" map="B"/>
+  <method class="org.springframework.boot.loader.net.protocol.nested.NestedUrlConnectionResources" name="void connectData()" map="C"/>
+  <method class="org.springframework.boot.loader.net.protocol.nested.NestedUrlConnectionResources" name="void connect()" map="D"/>
+  <method class="org.springframework.boot.loader.net.protocol.nested.NestedUrlConnectionResources" name="void releaseAll()" map="E"/>
+  <method class="org.springframework.boot.loader.net.protocol.nested.NestedUrlConnectionResources" name="java.io.IOException addToExceptionChain(java.io.IOException, java.io.IOException)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.nested.NestedUrlConnectionResources" name="java.io.InputStream getInputStream()" map="F"/>
+  <method class="org.springframework.boot.loader.net.protocol.nested.NestedUrlConnectionResources" name="void run()" map="run"/>
+  <class name="org.springframework.boot.loader.net.protocol.nested.NestedLocation" map="B"/>
+  <field class="org.springframework.boot.loader.net.protocol.nested.NestedLocation" name="nestedEntryName" map="A"/>
+  <field class="org.springframework.boot.loader.net.protocol.nested.NestedLocation" name="locationCache" map="B"/>
+  <field class="org.springframework.boot.loader.net.protocol.nested.NestedLocation" name="path" map="C"/>
+  <field class="org.springframework.boot.loader.net.protocol.nested.NestedLocation" name="pathCache" map="D"/>
+  <method class="org.springframework.boot.loader.net.protocol.nested.NestedLocation" name="java.nio.file.Path path()" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.nested.NestedLocation" name="int hashCode()" map="hashCode"/>
+  <method class="org.springframework.boot.loader.net.protocol.nested.NestedLocation" name="java.nio.file.Path asPath(java.lang.String)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.nested.NestedLocation" name="boolean equals(java.lang.Object)" map="equals"/>
+  <method class="org.springframework.boot.loader.net.protocol.nested.NestedLocation" name="java.lang.String nestedEntryName()" map="B"/>
+  <method class="org.springframework.boot.loader.net.protocol.nested.NestedLocation" name="org.springframework.boot.loader.net.protocol.nested.NestedLocation parse(java.lang.String)" map="B"/>
+  <method class="org.springframework.boot.loader.net.protocol.nested.NestedLocation" name="void clearCache()" map="C"/>
+  <method class="org.springframework.boot.loader.net.protocol.nested.NestedLocation" name="org.springframework.boot.loader.net.protocol.nested.NestedLocation create(java.lang.String)" map="C"/>
+  <method class="org.springframework.boot.loader.net.protocol.nested.NestedLocation" name="java.nio.file.Path lambda$asPath$1(java.lang.String, java.lang.String)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.nested.NestedLocation" name="boolean isWindows()" map="D"/>
+  <method class="org.springframework.boot.loader.net.protocol.nested.NestedLocation" name="java.lang.String toString()" map="toString"/>
+  <method class="org.springframework.boot.loader.net.protocol.nested.NestedLocation" name="java.lang.String fixWindowsLocationPath(java.lang.String)" map="D"/>
+  <method class="org.springframework.boot.loader.net.protocol.nested.NestedLocation" name="org.springframework.boot.loader.net.protocol.nested.NestedLocation fromUri(java.net.URI)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.nested.NestedLocation" name="org.springframework.boot.loader.net.protocol.nested.NestedLocation lambda$parse$0(java.lang.String, java.lang.String)" map="B"/>
+  <method class="org.springframework.boot.loader.net.protocol.nested.NestedLocation" name="org.springframework.boot.loader.net.protocol.nested.NestedLocation fromUrl(java.net.URL)" map="A"/>
+  <class name="org.springframework.boot.loader.net.protocol.nested.Handler" map="C"/>
+  <field class="org.springframework.boot.loader.net.protocol.nested.Handler" name="PREFIX" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.nested.Handler" name="java.net.URLConnection openConnection(java.net.URL)" map="openConnection"/>
+  <method class="org.springframework.boot.loader.net.protocol.nested.Handler" name="void clearCache()" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.nested.Handler" name="void assertUrlIsNotMalformed(java.lang.String)" map="A"/>
+  <class name="org.springframework.boot.loader.net.protocol.nested.NestedUrlConnection$ConnectionInputStream" map="_A"/>
+  <field class="org.springframework.boot.loader.net.protocol.nested.NestedUrlConnection$ConnectionInputStream" name="this$0" map="A"/>
+  <field class="org.springframework.boot.loader.net.protocol.nested.NestedUrlConnection$ConnectionInputStream" name="closing" map="B"/>
+  <method class="org.springframework.boot.loader.net.protocol.nested.NestedUrlConnection$ConnectionInputStream" name="void close()" map="close"/>
+  <class name="org.springframework.boot.loader.net.protocol.nested.NestedUrlConnection" map="D"/>
+  <field class="org.springframework.boot.loader.net.protocol.nested.NestedUrlConnection" name="permission" map="A"/>
+  <field class="org.springframework.boot.loader.net.protocol.nested.NestedUrlConnection" name="headerFields" map="B"/>
+  <field class="org.springframework.boot.loader.net.protocol.nested.NestedUrlConnection" name="lastModified" map="C"/>
+  <field class="org.springframework.boot.loader.net.protocol.nested.NestedUrlConnection" name="cleanup" map="D"/>
+  <field class="org.springframework.boot.loader.net.protocol.nested.NestedUrlConnection" name="CONTENT_TYPE" map="E"/>
+  <field class="org.springframework.boot.loader.net.protocol.nested.NestedUrlConnection" name="resources" map="F"/>
+  <field class="org.springframework.boot.loader.net.protocol.nested.NestedUrlConnection" name="RFC_1123_DATE_TIME" map="G"/>
+  <method class="org.springframework.boot.loader.net.protocol.nested.NestedUrlConnection" name="java.util.Map getHeaderFields()" map="getHeaderFields"/>
+  <method class="org.springframework.boot.loader.net.protocol.nested.NestedUrlConnection" name="long getContentLengthLong()" map="getContentLengthLong"/>
+  <method class="org.springframework.boot.loader.net.protocol.nested.NestedUrlConnection" name="java.util.Map$Entry getHeaderEntry(int)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.nested.NestedUrlConnection" name="java.lang.String getContentType()" map="getContentType"/>
+  <method class="org.springframework.boot.loader.net.protocol.nested.NestedUrlConnection" name="void connect()" map="connect"/>
+  <method class="org.springframework.boot.loader.net.protocol.nested.NestedUrlConnection" name="int getContentLength()" map="getContentLength"/>
+  <method class="org.springframework.boot.loader.net.protocol.nested.NestedUrlConnection" name="java.io.InputStream getInputStream()" map="getInputStream"/>
+  <method class="org.springframework.boot.loader.net.protocol.nested.NestedUrlConnection" name="long getLastModified()" map="getLastModified"/>
+  <method class="org.springframework.boot.loader.net.protocol.nested.NestedUrlConnection" name="java.lang.String getHeaderField(java.lang.String)" map="getHeaderField"/>
+  <method class="org.springframework.boot.loader.net.protocol.nested.NestedUrlConnection" name="org.springframework.boot.loader.net.protocol.nested.NestedLocation parseNestedLocation(java.net.URL)" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.nested.NestedUrlConnection" name="java.lang.String getHeaderFieldKey(int)" map="getHeaderFieldKey"/>
+  <method class="org.springframework.boot.loader.net.protocol.nested.NestedUrlConnection" name="java.security.Permission getPermission()" map="getPermission"/>
+  <method class="org.springframework.boot.loader.net.protocol.nested.NestedUrlConnection" name="java.lang.String getHeaderField(int)" map="getHeaderField"/>
+  <class name="org.springframework.boot.loader.net.protocol.Handlers" map="A"/>
+  <field class="org.springframework.boot.loader.net.protocol.Handlers" name="PACKAGE" map="A"/>
+  <field class="org.springframework.boot.loader.net.protocol.Handlers" name="PROTOCOL_HANDLER_PACKAGES" map="B"/>
+  <method class="org.springframework.boot.loader.net.protocol.Handlers" name="void resetCachedUrlHandlers()" map="A"/>
+  <method class="org.springframework.boot.loader.net.protocol.Handlers" name="void register()" map="B"/>
+  <package name="org.springframework.boot.loader.launch" map="G"/>
+  <class name="org.springframework.boot.loader.launch.Launcher" map="A"/>
+  <field class="org.springframework.boot.loader.launch.Launcher" name="JAR_MODE_RUNNER_CLASS_NAME" map="A"/>
+  <field class="org.springframework.boot.loader.launch.Launcher" name="classPathIndex" map="B"/>
+  <field class="org.springframework.boot.loader.launch.Launcher" name="BOOT_CLASSPATH_INDEX_ATTRIBUTE" map="C"/>
+  <field class="org.springframework.boot.loader.launch.Launcher" name="DEFAULT_CLASSPATH_INDEX_FILE_NAME" map="D"/>
+  <method class="org.springframework.boot.loader.launch.Launcher" name="boolean isExploded()" map="A"/>
+  <method class="org.springframework.boot.loader.launch.Launcher" name="java.lang.ClassLoader createClassLoader(java.net.URL[])" map="A"/>
+  <method class="org.springframework.boot.loader.launch.Launcher" name="boolean hasLength(java.lang.String)" map="A"/>
+  <method class="org.springframework.boot.loader.launch.Launcher" name="java.lang.String getMainClass()" map="B"/>
+  <method class="org.springframework.boot.loader.launch.Launcher" name="void launch(java.lang.ClassLoader, java.lang.String, java.lang.String[])" map="A"/>
+  <method class="org.springframework.boot.loader.launch.Launcher" name="org.springframework.boot.loader.launch.Archive getArchive()" map="C"/>
+  <method class="org.springframework.boot.loader.launch.Launcher" name="java.lang.ClassLoader createClassLoader(java.util.Collection)" map="A"/>
+  <method class="org.springframework.boot.loader.launch.Launcher" name="java.lang.String getEntryPathPrefix()" map="D"/>
+  <method class="org.springframework.boot.loader.launch.Launcher" name="java.lang.String getClassPathIndexFileLocation(org.springframework.boot.loader.launch.Archive)" map="A"/>
+  <method class="org.springframework.boot.loader.launch.Launcher" name="boolean isIncludedOnClassPath(org.springframework.boot.loader.launch.Archive$Entry)" map="A"/>
+  <method class="org.springframework.boot.loader.launch.Launcher" name="boolean isLibraryFileOrClassesDirectory(org.springframework.boot.loader.launch.Archive$Entry)" map="B"/>
+  <method class="org.springframework.boot.loader.launch.Launcher" name="java.util.Set getClassPathUrls()" map="E"/>
+  <method class="org.springframework.boot.loader.launch.Launcher" name="void launch(java.lang.String[])" map="A"/>
+  <method class="org.springframework.boot.loader.launch.Launcher" name="boolean isIncludedOnClassPathAndNotIndexed(org.springframework.boot.loader.launch.Archive$Entry)" map="C"/>
+  <method class="org.springframework.boot.loader.launch.Launcher" name="org.springframework.boot.loader.launch.ClassPathIndexFile getClassPathIndex(org.springframework.boot.loader.launch.Archive)" map="B"/>
+  <class name="org.springframework.boot.loader.launch.SystemPropertyUtils" map="B"/>
+  <field class="org.springframework.boot.loader.launch.SystemPropertyUtils" name="SIMPLE_PREFIX" map="A"/>
+  <field class="org.springframework.boot.loader.launch.SystemPropertyUtils" name="PLACEHOLDER_PREFIX" map="B"/>
+  <field class="org.springframework.boot.loader.launch.SystemPropertyUtils" name="VALUE_SEPARATOR" map="C"/>
+  <field class="org.springframework.boot.loader.launch.SystemPropertyUtils" name="PLACEHOLDER_SUFFIX" map="D"/>
+  <method class="org.springframework.boot.loader.launch.SystemPropertyUtils" name="java.lang.String getProperty(java.lang.String, java.lang.String, java.lang.String)" map="A"/>
+  <method class="org.springframework.boot.loader.launch.SystemPropertyUtils" name="java.lang.String getProperty(java.lang.String)" map="A"/>
+  <method class="org.springframework.boot.loader.launch.SystemPropertyUtils" name="boolean substringMatch(java.lang.CharSequence, int, java.lang.CharSequence)" map="A"/>
+  <method class="org.springframework.boot.loader.launch.SystemPropertyUtils" name="java.lang.String resolvePlaceholders(java.util.Properties, java.lang.String)" map="A"/>
+  <method class="org.springframework.boot.loader.launch.SystemPropertyUtils" name="java.lang.String parseStringValue(java.util.Properties, java.lang.String, java.lang.String, java.util.Set)" map="A"/>
+  <method class="org.springframework.boot.loader.launch.SystemPropertyUtils" name="int findPlaceholderEndIndex(java.lang.CharSequence, int)" map="A"/>
+  <method class="org.springframework.boot.loader.launch.SystemPropertyUtils" name="java.lang.String resolvePlaceholder(java.util.Properties, java.lang.String, java.lang.String)" map="A"/>
+  <class name="org.springframework.boot.loader.launch.PropertiesLauncher$Instantiator$Using" map="_A"/>
+  <field class="org.springframework.boot.loader.launch.PropertiesLauncher$Instantiator$Using" name="parameterTypes" map="A"/>
+  <field class="org.springframework.boot.loader.launch.PropertiesLauncher$Instantiator$Using" name="instantiator" map="B"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher$Instantiator$Using" name="org.springframework.boot.loader.launch.PropertiesLauncher$Instantiator instantiator()" map="A"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher$Instantiator$Using" name="boolean equals(java.lang.Object)" map="equals"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher$Instantiator$Using" name="int hashCode()" map="hashCode"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher$Instantiator$Using" name="java.lang.Class[] parameterTypes()" map="B"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher$Instantiator$Using" name="java.lang.String toString()" map="toString"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher$Instantiator$Using" name="java.lang.Object newInstance(java.lang.Object[])" map="A"/>
+  <class name="org.springframework.boot.loader.launch.PropertiesLauncher$Instantiator" map="_A"/>
+  <field class="org.springframework.boot.loader.launch.PropertiesLauncher$Instantiator" name="type" map="A"/>
+  <field class="org.springframework.boot.loader.launch.PropertiesLauncher$Instantiator" name="parent" map="B"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher$Instantiator" name="boolean equals(java.lang.Object)" map="equals"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher$Instantiator" name="int hashCode()" map="hashCode"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher$Instantiator" name="java.lang.Class type()" map="A"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher$Instantiator" name="java.lang.String toString()" map="toString"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher$Instantiator" name="java.lang.ClassLoader parent()" map="B"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher$Instantiator" name="org.springframework.boot.loader.launch.PropertiesLauncher$Instantiator$Using declaredConstructor(java.lang.Class[])" map="A"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher$Instantiator" name="java.lang.Object constructWithoutParameters()" map="C"/>
+  <class name="org.springframework.boot.loader.launch.PropertiesLauncher" map="C"/>
+  <field class="org.springframework.boot.loader.launch.PropertiesLauncher" name="debug" map="E"/>
+  <field class="org.springframework.boot.loader.launch.PropertiesLauncher" name="SET_SYSTEM_PROPERTIES" map="F"/>
+  <field class="org.springframework.boot.loader.launch.PropertiesLauncher" name="archive" map="G"/>
+  <field class="org.springframework.boot.loader.launch.PropertiesLauncher" name="MAIN" map="H"/>
+  <field class="org.springframework.boot.loader.launch.PropertiesLauncher" name="NESTED_ARCHIVE_SEPARATOR" map="I"/>
+  <field class="org.springframework.boot.loader.launch.PropertiesLauncher" name="CONFIG_NAME" map="J"/>
+  <field class="org.springframework.boot.loader.launch.PropertiesLauncher" name="WORD_SEPARATOR" map="K"/>
+  <field class="org.springframework.boot.loader.launch.PropertiesLauncher" name="ARGS" map="L"/>
+  <field class="org.springframework.boot.loader.launch.PropertiesLauncher" name="HOME" map="M"/>
+  <field class="org.springframework.boot.loader.launch.PropertiesLauncher" name="properties" map="N"/>
+  <field class="org.springframework.boot.loader.launch.PropertiesLauncher" name="CONFIG_LOCATION" map="O"/>
+  <field class="org.springframework.boot.loader.launch.PropertiesLauncher" name="JAR_FILE_PREFIX" map="P"/>
+  <field class="org.springframework.boot.loader.launch.PropertiesLauncher" name="PATH" map="Q"/>
+  <field class="org.springframework.boot.loader.launch.PropertiesLauncher" name="NO_URLS" map="R"/>
+  <field class="org.springframework.boot.loader.launch.PropertiesLauncher" name="paths" map="S"/>
+  <field class="org.springframework.boot.loader.launch.PropertiesLauncher" name="homeDirectory" map="T"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="org.springframework.boot.loader.launch.Archive getArchive()" map="C"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="boolean exists(java.net.URL)" map="A"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="boolean isUrl(java.lang.String)" map="B"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="java.io.InputStream getClasspathResource(java.lang.String)" map="C"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="void addToSystemProperties()" map="F"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="java.util.List getPaths()" map="G"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="boolean isAbsolutePath(java.lang.String)" map="D"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="java.util.function.Predicate includeByPrefix(java.lang.String)" map="E"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="java.io.File getHomeDirectory()" map="H"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="java.lang.String getProperty(java.lang.String, java.lang.String, java.lang.String)" map="A"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="java.lang.String getProperty(java.lang.String, java.lang.String)" map="A"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="java.io.InputStream getFileResource(java.lang.String)" map="F"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="java.lang.String getResolvedProperty(java.lang.String, java.lang.String, java.lang.String, java.lang.String)" map="A"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="java.lang.String getProperty(java.lang.String)" map="G"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="java.lang.String stripLeadingSlashes(java.lang.String)" map="H"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="java.lang.String handleUrl(java.lang.String)" map="I"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="void resolvePropertyPlaceholders()" map="I"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="void close()" map="J"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="java.lang.String capitalize(java.lang.String)" map="J"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="java.util.Set getClassPathUrlsForRoot()" map="K"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="java.lang.String getMainClass()" map="B"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="java.lang.String cleanupPath(java.lang.String)" map="K"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="java.lang.String[] merge(java.lang.String[], java.lang.String[])" map="A"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="void initializeProperties()" map="L"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="java.lang.ClassLoader wrapWithCustomClassLoader(java.lang.ClassLoader, java.lang.String)" map="A"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="java.lang.String getManifestValue(org.springframework.boot.loader.launch.Archive, java.lang.String)" map="A"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="java.lang.String[] getArgs(java.lang.String[])" map="B"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="boolean isArchive(java.lang.String)" map="L"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="java.lang.String toCamelCase(java.lang.CharSequence)" map="A"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="boolean isArchive(org.springframework.boot.loader.launch.Archive$Entry)" map="D"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="void loadResource(java.io.InputStream)" map="A"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="java.io.InputStream getURLResource(java.lang.String)" map="M"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="java.util.Set getClassPathUrls()" map="E"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="void disconnect(java.net.URLConnection)" map="A"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="java.lang.String getPropertyWithDefault(java.lang.String, java.lang.String)" map="B"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="java.util.List parsePathsProperty(java.lang.String)" map="N"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="void main(java.lang.String[])" map="C"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="boolean lambda$includeByPrefix$0(java.lang.String, org.springframework.boot.loader.launch.Archive$Entry)" map="A"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="java.util.Set getClassPathUrlsForNested(java.lang.String)" map="O"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="java.io.InputStream getResource(java.lang.String)" map="P"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="java.lang.ClassLoader createClassLoader(java.util.Collection)" map="A"/>
+  <method class="org.springframework.boot.loader.launch.PropertiesLauncher" name="java.util.Set getClassPathUrlsForPath(java.lang.String)" map="Q"/>
+  <class name="org.springframework.boot.loader.launch.JarModeRunner" map="D"/>
+  <field class="org.springframework.boot.loader.launch.JarModeRunner" name="SUPPRESSED_SYSTEM_EXIT_CODE" map="A"/>
+  <field class="org.springframework.boot.loader.launch.JarModeRunner" name="DISABLE_SYSTEM_EXIT" map="B"/>
+  <method class="org.springframework.boot.loader.launch.JarModeRunner" name="void main(java.lang.String[])" map="A"/>
+  <method class="org.springframework.boot.loader.launch.JarModeRunner" name="void runJarMode(java.lang.String, java.lang.String[])" map="A"/>
+  <method class="org.springframework.boot.loader.launch.JarModeRunner" name="void printError(java.lang.Throwable)" map="A"/>
+  <class name="org.springframework.boot.loader.launch.WarLauncher" map="E"/>
+  <method class="org.springframework.boot.loader.launch.WarLauncher" name="void main(java.lang.String[])" map="D"/>
+  <method class="org.springframework.boot.loader.launch.WarLauncher" name="java.lang.String getEntryPathPrefix()" map="D"/>
+  <method class="org.springframework.boot.loader.launch.WarLauncher" name="boolean isLibraryFileOrClassesDirectory(org.springframework.boot.loader.launch.Archive$Entry)" map="B"/>
+  <class name="org.springframework.boot.loader.launch.JarFileArchive$JarArchiveEntry" map="_A"/>
+  <field class="org.springframework.boot.loader.launch.JarFileArchive$JarArchiveEntry" name="jarEntry" map="C"/>
+  <method class="org.springframework.boot.loader.launch.JarFileArchive$JarArchiveEntry" name="java.util.jar.JarEntry jarEntry()" map="D"/>
+  <method class="org.springframework.boot.loader.launch.JarFileArchive$JarArchiveEntry" name="boolean equals(java.lang.Object)" map="equals"/>
+  <method class="org.springframework.boot.loader.launch.JarFileArchive$JarArchiveEntry" name="int hashCode()" map="hashCode"/>
+  <method class="org.springframework.boot.loader.launch.JarFileArchive$JarArchiveEntry" name="java.lang.String name()" map="A"/>
+  <method class="org.springframework.boot.loader.launch.JarFileArchive$JarArchiveEntry" name="boolean isDirectory()" map="B"/>
+  <method class="org.springframework.boot.loader.launch.JarFileArchive$JarArchiveEntry" name="java.lang.String toString()" map="toString"/>
+  <class name="org.springframework.boot.loader.launch.JarFileArchive" map="F"/>
+  <field class="org.springframework.boot.loader.launch.JarFileArchive" name="tempUnpackDirectory" map="H"/>
+  <field class="org.springframework.boot.loader.launch.JarFileArchive" name="file" map="I"/>
+  <field class="org.springframework.boot.loader.launch.JarFileArchive" name="TEMP" map="J"/>
+  <field class="org.springframework.boot.loader.launch.JarFileArchive" name="FILE_PERMISSION_ATTRIBUTES" map="K"/>
+  <field class="org.springframework.boot.loader.launch.JarFileArchive" name="UNPACK_MARKER" map="L"/>
+  <field class="org.springframework.boot.loader.launch.JarFileArchive" name="DIRECTORY_PERMISSION_ATTRIBUTES" map="M"/>
+  <field class="org.springframework.boot.loader.launch.JarFileArchive" name="NO_FILE_ATTRIBUTES" map="N"/>
+  <field class="org.springframework.boot.loader.launch.JarFileArchive" name="jarFile" map="O"/>
+  <method class="org.springframework.boot.loader.launch.JarFileArchive" name="java.nio.file.attribute.FileAttribute[] asFileAttributes(java.nio.file.attribute.PosixFilePermission[])" map="A"/>
+  <method class="org.springframework.boot.loader.launch.JarFileArchive" name="void close()" map="close"/>
+  <method class="org.springframework.boot.loader.launch.JarFileArchive" name="void createFile(java.nio.file.Path)" map="A"/>
+  <method class="org.springframework.boot.loader.launch.JarFileArchive" name="java.net.URL getNestedJarUrl(org.springframework.boot.loader.launch.JarFileArchive$JarArchiveEntry)" map="A"/>
+  <method class="org.springframework.boot.loader.launch.JarFileArchive" name="java.nio.file.Path createUnpackDirectory(java.nio.file.Path)" map="B"/>
+  <method class="org.springframework.boot.loader.launch.JarFileArchive" name="java.nio.file.Path getTempUnpackDirectory()" map="E"/>
+  <method class="org.springframework.boot.loader.launch.JarFileArchive" name="java.util.jar.Manifest getManifest()" map="C"/>
+  <method class="org.springframework.boot.loader.launch.JarFileArchive" name="boolean supportsPosix(java.nio.file.FileSystem)" map="A"/>
+  <method class="org.springframework.boot.loader.launch.JarFileArchive" name="java.nio.file.attribute.FileAttribute[] getFileAttributes(java.nio.file.Path, java.nio.file.attribute.FileAttribute[])" map="A"/>
+  <method class="org.springframework.boot.loader.launch.JarFileArchive" name="java.util.Set getClassPathUrls(java.util.function.Predicate, java.util.function.Predicate)" map="A"/>
+  <method class="org.springframework.boot.loader.launch.JarFileArchive" name="java.lang.String toString()" map="toString"/>
+  <method class="org.springframework.boot.loader.launch.JarFileArchive" name="void createDirectory(java.nio.file.Path)" map="C"/>
+  <method class="org.springframework.boot.loader.launch.JarFileArchive" name="void unpack(java.util.jar.JarEntry, java.nio.file.Path)" map="A"/>
+  <method class="org.springframework.boot.loader.launch.JarFileArchive" name="java.net.URL getUnpackedNestedJarUrl(java.util.jar.JarEntry)" map="A"/>
+  <class name="org.springframework.boot.loader.launch.ExecutableArchiveLauncher" map="G"/>
+  <field class="org.springframework.boot.loader.launch.ExecutableArchiveLauncher" name="START_CLASS_ATTRIBUTE" map="U"/>
+  <field class="org.springframework.boot.loader.launch.ExecutableArchiveLauncher" name="archive" map="V"/>
+  <method class="org.springframework.boot.loader.launch.ExecutableArchiveLauncher" name="org.springframework.boot.loader.launch.Archive getArchive()" map="C"/>
+  <method class="org.springframework.boot.loader.launch.ExecutableArchiveLauncher" name="boolean isSearchedDirectory(org.springframework.boot.loader.launch.Archive$Entry)" map="E"/>
+  <method class="org.springframework.boot.loader.launch.ExecutableArchiveLauncher" name="java.util.Set getClassPathUrls()" map="E"/>
+  <method class="org.springframework.boot.loader.launch.ExecutableArchiveLauncher" name="java.lang.ClassLoader createClassLoader(java.util.Collection)" map="A"/>
+  <method class="org.springframework.boot.loader.launch.ExecutableArchiveLauncher" name="java.lang.String getMainClass()" map="B"/>
+  <class name="org.springframework.boot.loader.launch.ClassPathIndexFile" map="H"/>
+  <field class="org.springframework.boot.loader.launch.ClassPathIndexFile" name="lines" map="A"/>
+  <field class="org.springframework.boot.loader.launch.ClassPathIndexFile" name="root" map="B"/>
+  <method class="org.springframework.boot.loader.launch.ClassPathIndexFile" name="boolean containsEntry(java.lang.String)" map="A"/>
+  <method class="org.springframework.boot.loader.launch.ClassPathIndexFile" name="boolean lineHasText(java.lang.String)" map="B"/>
+  <method class="org.springframework.boot.loader.launch.ClassPathIndexFile" name="java.util.List getUrls()" map="A"/>
+  <method class="org.springframework.boot.loader.launch.ClassPathIndexFile" name="int size()" map="B"/>
+  <method class="org.springframework.boot.loader.launch.ClassPathIndexFile" name="java.lang.String extractName(java.lang.String)" map="C"/>
+  <method class="org.springframework.boot.loader.launch.ClassPathIndexFile" name="org.springframework.boot.loader.launch.ClassPathIndexFile loadIfPossible(java.io.File, java.lang.String)" map="A"/>
+  <method class="org.springframework.boot.loader.launch.ClassPathIndexFile" name="org.springframework.boot.loader.launch.ClassPathIndexFile loadIfPossible(java.io.File, java.io.File)" map="A"/>
+  <method class="org.springframework.boot.loader.launch.ClassPathIndexFile" name="java.net.URL asUrl(java.lang.String)" map="D"/>
+  <class name="org.springframework.boot.loader.launch.LaunchedClassLoader$DefinePackageCallType" map="_A"/>
+  <field class="org.springframework.boot.loader.launch.LaunchedClassLoader$DefinePackageCallType" name="MANIFEST" map="A"/>
+  <field class="org.springframework.boot.loader.launch.LaunchedClassLoader$DefinePackageCallType" name="$VALUES" map="B"/>
+  <field class="org.springframework.boot.loader.launch.LaunchedClassLoader$DefinePackageCallType" name="ATTRIBUTES" map="C"/>
+  <method class="org.springframework.boot.loader.launch.LaunchedClassLoader$DefinePackageCallType" name="org.springframework.boot.loader.launch.LaunchedClassLoader$DefinePackageCallType[] values()" map="values"/>
+  <method class="org.springframework.boot.loader.launch.LaunchedClassLoader$DefinePackageCallType" name="org.springframework.boot.loader.launch.LaunchedClassLoader$DefinePackageCallType[] $values()" map="A"/>
+  <method class="org.springframework.boot.loader.launch.LaunchedClassLoader$DefinePackageCallType" name="org.springframework.boot.loader.launch.LaunchedClassLoader$DefinePackageCallType valueOf(java.lang.String)" map="valueOf"/>
+  <class name="org.springframework.boot.loader.launch.LaunchedClassLoader" map="I"/>
+  <field class="org.springframework.boot.loader.launch.LaunchedClassLoader" name="rootArchive" map="E"/>
+  <field class="org.springframework.boot.loader.launch.LaunchedClassLoader" name="JAR_MODE_RUNNER_CLASS_NAME" map="F"/>
+  <field class="org.springframework.boot.loader.launch.LaunchedClassLoader" name="JAR_MODE_PACKAGE_PREFIX" map="G"/>
+  <field class="org.springframework.boot.loader.launch.LaunchedClassLoader" name="definePackageLock" map="H"/>
+  <field class="org.springframework.boot.loader.launch.LaunchedClassLoader" name="definePackageCallType" map="I"/>
+  <field class="org.springframework.boot.loader.launch.LaunchedClassLoader" name="exploded" map="J"/>
+  <method class="org.springframework.boot.loader.launch.LaunchedClassLoader" name="java.lang.Package lambda$definePackage$1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.net.URL)" map="A"/>
+  <method class="org.springframework.boot.loader.launch.LaunchedClassLoader" name="java.lang.Class loadClassInLaunchedClassLoader(java.lang.String)" map="B"/>
+  <method class="org.springframework.boot.loader.launch.LaunchedClassLoader" name="java.lang.Class loadClass(java.lang.String, boolean)" map="loadClass"/>
+  <method class="org.springframework.boot.loader.launch.LaunchedClassLoader" name="java.lang.Package definePackage(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.net.URL)" map="definePackage"/>
+  <method class="org.springframework.boot.loader.launch.LaunchedClassLoader" name="java.lang.Package definePackage(java.lang.String, java.util.jar.Manifest, java.net.URL)" map="definePackage"/>
+  <method class="org.springframework.boot.loader.launch.LaunchedClassLoader" name="java.lang.Package definePackageForExploded(java.lang.String, java.util.jar.Manifest, java.net.URL)" map="A"/>
+  <method class="org.springframework.boot.loader.launch.LaunchedClassLoader" name="java.lang.Package lambda$definePackageForExploded$0(java.lang.String, java.util.jar.Manifest, java.net.URL)" map="B"/>
+  <method class="org.springframework.boot.loader.launch.LaunchedClassLoader" name="java.lang.Package definePackageForExploded(java.lang.String, java.net.URL, java.util.function.Supplier)" map="A"/>
+  <method class="org.springframework.boot.loader.launch.LaunchedClassLoader" name="java.util.jar.Manifest getManifest(org.springframework.boot.loader.launch.Archive)" map="A"/>
+  <method class="org.springframework.boot.loader.launch.LaunchedClassLoader" name="java.lang.Object definePackage(org.springframework.boot.loader.launch.LaunchedClassLoader$DefinePackageCallType, java.util.function.Supplier)" map="A"/>
+  <class name="org.springframework.boot.loader.launch.JarLauncher" map="J"/>
+  <method class="org.springframework.boot.loader.launch.JarLauncher" name="void main(java.lang.String[])" map="E"/>
+  <class name="org.springframework.boot.loader.launch.ExplodedArchive$FileArchiveEntry" map="_A"/>
+  <field class="org.springframework.boot.loader.launch.ExplodedArchive$FileArchiveEntry" name="name" map="A"/>
+  <field class="org.springframework.boot.loader.launch.ExplodedArchive$FileArchiveEntry" name="file" map="B"/>
+  <method class="org.springframework.boot.loader.launch.ExplodedArchive$FileArchiveEntry" name="java.io.File file()" map="C"/>
+  <method class="org.springframework.boot.loader.launch.ExplodedArchive$FileArchiveEntry" name="boolean equals(java.lang.Object)" map="equals"/>
+  <method class="org.springframework.boot.loader.launch.ExplodedArchive$FileArchiveEntry" name="int hashCode()" map="hashCode"/>
+  <method class="org.springframework.boot.loader.launch.ExplodedArchive$FileArchiveEntry" name="java.lang.String name()" map="A"/>
+  <method class="org.springframework.boot.loader.launch.ExplodedArchive$FileArchiveEntry" name="boolean isDirectory()" map="B"/>
+  <method class="org.springframework.boot.loader.launch.ExplodedArchive$FileArchiveEntry" name="java.lang.String toString()" map="toString"/>
+  <class name="org.springframework.boot.loader.launch.ExplodedArchive" map="K"/>
+  <field class="org.springframework.boot.loader.launch.ExplodedArchive" name="rootUriPath" map="B"/>
+  <field class="org.springframework.boot.loader.launch.ExplodedArchive" name="SKIPPED_NAMES" map="C"/>
+  <field class="org.springframework.boot.loader.launch.ExplodedArchive" name="entryComparator" map="D"/>
+  <field class="org.springframework.boot.loader.launch.ExplodedArchive" name="manifest" map="E"/>
+  <field class="org.springframework.boot.loader.launch.ExplodedArchive" name="NO_MANIFEST" map="F"/>
+  <field class="org.springframework.boot.loader.launch.ExplodedArchive" name="rootDirectory" map="G"/>
+  <method class="org.springframework.boot.loader.launch.ExplodedArchive" name="java.util.Set getClassPathUrls(java.util.function.Predicate, java.util.function.Predicate)" map="A"/>
+  <method class="org.springframework.boot.loader.launch.ExplodedArchive" name="java.lang.Object loadManifest()" map="D"/>
+  <method class="org.springframework.boot.loader.launch.ExplodedArchive" name="java.io.File getRootDirectory()" map="B"/>
+  <method class="org.springframework.boot.loader.launch.ExplodedArchive" name="java.util.List listFiles(java.io.File)" map="B"/>
+  <method class="org.springframework.boot.loader.launch.ExplodedArchive" name="java.util.jar.Manifest getManifest()" map="C"/>
+  <method class="org.springframework.boot.loader.launch.ExplodedArchive" name="java.lang.String toString()" map="toString"/>
+  <class name="org.springframework.boot.loader.launch.Archive$Entry" map="_A"/>
+  <method class="org.springframework.boot.loader.launch.Archive$Entry" name="java.lang.String name()" map="A"/>
+  <method class="org.springframework.boot.loader.launch.Archive$Entry" name="boolean isDirectory()" map="B"/>
+  <class name="org.springframework.boot.loader.launch.Archive" map="L"/>
+  <field class="org.springframework.boot.loader.launch.Archive" name="ALL_ENTRIES" map="A"/>
+  <method class="org.springframework.boot.loader.launch.Archive" name="java.util.Set getClassPathUrls(java.util.function.Predicate)" map="A"/>
+  <method class="org.springframework.boot.loader.launch.Archive" name="boolean isExploded()" map="A"/>
+  <method class="org.springframework.boot.loader.launch.Archive" name="void close()" map="close"/>
+  <method class="org.springframework.boot.loader.launch.Archive" name="boolean lambda$static$0(org.springframework.boot.loader.launch.Archive$Entry)" map="A"/>
+  <method class="org.springframework.boot.loader.launch.Archive" name="java.io.File getRootDirectory()" map="B"/>
+  <method class="org.springframework.boot.loader.launch.Archive" name="java.util.jar.Manifest getManifest()" map="C"/>
+  <method class="org.springframework.boot.loader.launch.Archive" name="org.springframework.boot.loader.launch.Archive create(java.io.File)" map="A"/>
+  <method class="org.springframework.boot.loader.launch.Archive" name="java.util.Set getClassPathUrls(java.util.function.Predicate, java.util.function.Predicate)" map="A"/>
+  <method class="org.springframework.boot.loader.launch.Archive" name="org.springframework.boot.loader.launch.Archive create(java.lang.Class)" map="A"/>
+  <method class="org.springframework.boot.loader.launch.Archive" name="org.springframework.boot.loader.launch.Archive create(java.security.ProtectionDomain)" map="A"/>
+  <package name="org.springframework.boot.loader.nio" map="H"/>
+  <package name="org.springframework.boot.loader.nio.file" map="A"/>
+  <class name="org.springframework.boot.loader.nio.file.UriPathEncoder" map="A"/>
+  <field class="org.springframework.boot.loader.nio.file.UriPathEncoder" name="ALLOWED" map="A"/>
+  <method class="org.springframework.boot.loader.nio.file.UriPathEncoder" name="java.lang.String encode(byte[])" map="A"/>
+  <method class="org.springframework.boot.loader.nio.file.UriPathEncoder" name="java.lang.String encode(java.lang.String)" map="A"/>
+  <method class="org.springframework.boot.loader.nio.file.UriPathEncoder" name="boolean isAllowed(int)" map="A"/>
+  <method class="org.springframework.boot.loader.nio.file.UriPathEncoder" name="boolean isDigit(int)" map="B"/>
+  <method class="org.springframework.boot.loader.nio.file.UriPathEncoder" name="boolean isAlpha(int)" map="C"/>
+  <class name="org.springframework.boot.loader.nio.file.NestedByteChannel$Resources" map="_A"/>
+  <field class="org.springframework.boot.loader.nio.file.NestedByteChannel$Resources" name="zipContent" map="A"/>
+  <field class="org.springframework.boot.loader.nio.file.NestedByteChannel$Resources" name="data" map="B"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedByteChannel$Resources" name="void releaseAll()" map="A"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedByteChannel$Resources" name="void run()" map="run"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedByteChannel$Resources" name="org.springframework.boot.loader.zip.DataBlock getData()" map="B"/>
+  <class name="org.springframework.boot.loader.nio.file.NestedByteChannel" map="B"/>
+  <field class="org.springframework.boot.loader.nio.file.NestedByteChannel" name="position" map="A"/>
+  <field class="org.springframework.boot.loader.nio.file.NestedByteChannel" name="closed" map="B"/>
+  <field class="org.springframework.boot.loader.nio.file.NestedByteChannel" name="size" map="C"/>
+  <field class="org.springframework.boot.loader.nio.file.NestedByteChannel" name="cleanup" map="D"/>
+  <field class="org.springframework.boot.loader.nio.file.NestedByteChannel" name="resources" map="E"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedByteChannel" name="long position()" map="position"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedByteChannel" name="boolean isOpen()" map="isOpen"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedByteChannel" name="java.nio.channels.SeekableByteChannel position(long)" map="position"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedByteChannel" name="void close()" map="close"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedByteChannel" name="int read(java.nio.ByteBuffer)" map="read"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedByteChannel" name="void assertNotClosed()" map="A"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedByteChannel" name="java.nio.channels.SeekableByteChannel truncate(long)" map="truncate"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedByteChannel" name="long size()" map="size"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedByteChannel" name="int write(java.nio.ByteBuffer)" map="write"/>
+  <class name="org.springframework.boot.loader.nio.file.NestedPath" map="C"/>
+  <field class="org.springframework.boot.loader.nio.file.NestedPath" name="nestedEntryName" map="A"/>
+  <field class="org.springframework.boot.loader.nio.file.NestedPath" name="entryExists" map="B"/>
+  <field class="org.springframework.boot.loader.nio.file.NestedPath" name="fileSystem" map="C"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedPath" name="java.nio.file.Path getName(int)" map="getName"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedPath" name="java.nio.file.WatchKey register(java.nio.file.WatchService, java.nio.file.WatchEvent$Kind[], java.nio.file.WatchEvent$Modifier[])" map="register"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedPath" name="java.nio.file.Path relativize(java.nio.file.Path)" map="relativize"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedPath" name="java.nio.file.FileSystem getFileSystem()" map="getFileSystem"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedPath" name="org.springframework.boot.loader.nio.file.NestedPath cast(java.nio.file.Path)" map="A"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedPath" name="boolean endsWith(java.nio.file.Path)" map="endsWith"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedPath" name="boolean equals(java.lang.Object)" map="equals"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedPath" name="java.nio.file.Path subpath(int, int)" map="subpath"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedPath" name="java.lang.String toString()" map="toString"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedPath" name="java.nio.file.Path toAbsolutePath()" map="toAbsolutePath"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedPath" name="void assertExists()" map="A"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedPath" name="org.springframework.boot.loader.nio.file.NestedFileSystem getFileSystem()" map="B"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedPath" name="boolean startsWith(java.nio.file.Path)" map="startsWith"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedPath" name="java.nio.file.Path toRealPath(java.nio.file.LinkOption[])" map="toRealPath"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedPath" name="int hashCode()" map="hashCode"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedPath" name="int getNameCount()" map="getNameCount"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedPath" name="java.nio.file.Path getFileName()" map="getFileName"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedPath" name="java.nio.file.Path resolve(java.nio.file.Path)" map="resolve"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedPath" name="java.nio.file.Path normalize()" map="normalize"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedPath" name="int compareTo(java.nio.file.Path)" map="compareTo"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedPath" name="boolean isAbsolute()" map="isAbsolute"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedPath" name="java.nio.file.Path getRoot()" map="getRoot"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedPath" name="int compareTo(java.lang.Object)" map="compareTo"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedPath" name="java.nio.file.Path getParent()" map="getParent"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedPath" name="java.lang.String getNestedEntryName()" map="C"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedPath" name="java.net.URI toUri()" map="toUri"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedPath" name="java.nio.file.Path getJarPath()" map="D"/>
+  <class name="org.springframework.boot.loader.nio.file.NestedFileStore" map="D"/>
+  <field class="org.springframework.boot.loader.nio.file.NestedFileStore" name="fileSystem" map="A"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileStore" name="java.lang.Object getAttribute(java.lang.String)" map="getAttribute"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileStore" name="long getUsableSpace()" map="getUsableSpace"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileStore" name="boolean supportsFileAttributeView(java.lang.String)" map="supportsFileAttributeView"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileStore" name="java.nio.file.FileStore getJarPathFileStore()" map="A"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileStore" name="long getTotalSpace()" map="getTotalSpace"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileStore" name="java.lang.String type()" map="type"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileStore" name="boolean isReadOnly()" map="isReadOnly"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileStore" name="long getUnallocatedSpace()" map="getUnallocatedSpace"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileStore" name="boolean supportsFileAttributeView(java.lang.Class)" map="supportsFileAttributeView"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileStore" name="java.lang.String name()" map="name"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileStore" name="java.nio.file.attribute.FileStoreAttributeView getFileStoreAttributeView(java.lang.Class)" map="getFileStoreAttributeView"/>
+  <class name="org.springframework.boot.loader.nio.file.NestedFileSystemProvider" map="E"/>
+  <field class="org.springframework.boot.loader.nio.file.NestedFileSystemProvider" name="fileSystems" map="A"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystemProvider" name="java.nio.channels.SeekableByteChannel newByteChannel(java.nio.file.Path, java.util.Set, java.nio.file.attribute.FileAttribute[])" map="newByteChannel"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystemProvider" name="void createDirectory(java.nio.file.Path, java.nio.file.attribute.FileAttribute[])" map="createDirectory"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystemProvider" name="boolean isSameFile(java.nio.file.Path, java.nio.file.Path)" map="isSameFile"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystemProvider" name="java.nio.file.DirectoryStream newDirectoryStream(java.nio.file.Path, java.nio.file.DirectoryStream$Filter)" map="newDirectoryStream"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystemProvider" name="boolean isHidden(java.nio.file.Path)" map="isHidden"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystemProvider" name="void copy(java.nio.file.Path, java.nio.file.Path, java.nio.file.CopyOption[])" map="copy"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystemProvider" name="java.lang.String getScheme()" map="getScheme"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystemProvider" name="void removeFileSystem(org.springframework.boot.loader.nio.file.NestedFileSystem)" map="A"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystemProvider" name="void delete(java.nio.file.Path)" map="delete"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystemProvider" name="java.util.Map readAttributes(java.nio.file.Path, java.lang.String, java.nio.file.LinkOption[])" map="readAttributes"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystemProvider" name="java.nio.file.attribute.FileAttributeView getFileAttributeView(java.nio.file.Path, java.lang.Class, java.nio.file.LinkOption[])" map="getFileAttributeView"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystemProvider" name="void setAttribute(java.nio.file.Path, java.lang.String, java.lang.Object, java.nio.file.LinkOption[])" map="setAttribute"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystemProvider" name="java.nio.file.attribute.BasicFileAttributes readAttributes(java.nio.file.Path, java.lang.Class, java.nio.file.LinkOption[])" map="readAttributes"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystemProvider" name="java.nio.file.FileSystem getFileSystem(java.net.URI)" map="getFileSystem"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystemProvider" name="void move(java.nio.file.Path, java.nio.file.Path, java.nio.file.CopyOption[])" map="move"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystemProvider" name="java.nio.file.Path getPath(java.net.URI)" map="getPath"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystemProvider" name="java.nio.file.Path getJarPath(java.nio.file.Path)" map="A"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystemProvider" name="java.nio.file.FileStore getFileStore(java.nio.file.Path)" map="getFileStore"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystemProvider" name="java.nio.file.FileSystem newFileSystem(java.net.URI, java.util.Map)" map="newFileSystem"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystemProvider" name="void checkAccess(java.nio.file.Path, java.nio.file.AccessMode[])" map="checkAccess"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystemProvider" name="org.springframework.boot.loader.nio.file.NestedFileSystem lambda$getPath$0(java.nio.file.Path)" map="B"/>
+  <class name="org.springframework.boot.loader.nio.file.NestedFileSystem" map="F"/>
+  <field class="org.springframework.boot.loader.nio.file.NestedFileSystem" name="EXISTING_FILE_SYSTEM" map="A"/>
+  <field class="org.springframework.boot.loader.nio.file.NestedFileSystem" name="SUPPORTED_FILE_ATTRIBUTE_VIEWS" map="B"/>
+  <field class="org.springframework.boot.loader.nio.file.NestedFileSystem" name="closed" map="C"/>
+  <field class="org.springframework.boot.loader.nio.file.NestedFileSystem" name="jarPath" map="D"/>
+  <field class="org.springframework.boot.loader.nio.file.NestedFileSystem" name="FILE_SYSTEMS_CLASS_NAME" map="E"/>
+  <field class="org.springframework.boot.loader.nio.file.NestedFileSystem" name="provider" map="F"/>
+  <field class="org.springframework.boot.loader.nio.file.NestedFileSystem" name="zipFileSystems" map="G"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystem" name="void closeZipFileSystem(java.nio.file.FileSystem)" map="A"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystem" name="java.util.Set supportedFileAttributeViews()" map="supportedFileAttributeViews"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystem" name="java.lang.String getSeparator()" map="getSeparator"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystem" name="boolean equals(java.lang.Object)" map="equals"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystem" name="void assertNotClosed()" map="A"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystem" name="java.lang.String toString()" map="toString"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystem" name="void close()" map="close"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystem" name="boolean hasFileSystem(java.net.URI)" map="A"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystem" name="java.lang.Iterable getRootDirectories()" map="getRootDirectories"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystem" name="boolean isOpen()" map="isOpen"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystem" name="java.nio.file.attribute.UserPrincipalLookupService getUserPrincipalLookupService()" map="getUserPrincipalLookupService"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystem" name="int hashCode()" map="hashCode"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystem" name="java.nio.file.Path getPath(java.lang.String, java.lang.String[])" map="getPath"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystem" name="java.nio.file.WatchService newWatchService()" map="newWatchService"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystem" name="java.nio.file.spi.FileSystemProvider provider()" map="provider"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystem" name="java.lang.Iterable getFileStores()" map="getFileStores"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystem" name="void installZipFileSystemIfNecessary(java.lang.String)" map="A"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystem" name="boolean isCreatingNewFileSystem()" map="B"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystem" name="java.nio.file.PathMatcher getPathMatcher(java.lang.String)" map="getPathMatcher"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystem" name="boolean isReadOnly()" map="isReadOnly"/>
+  <method class="org.springframework.boot.loader.nio.file.NestedFileSystem" name="java.nio.file.Path getJarPath()" map="C"/>
+</map>
+</yguard>

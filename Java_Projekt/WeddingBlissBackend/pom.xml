@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>3.4.4</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>com.weddingbliss</groupId>
+	<artifactId>weddingbliss-backend</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>weddingbliss-backend</name>
+	<description>Gaesteverwaltung</description>
+	<url/>
+	<licenses>
+		<license/>
+	</licenses>
+	<developers>
+		<developer/>
+	</developers>
+	<scm>
+		<connection/>
+		<developerConnection/>
+		<tag/>
+		<url/>
+	</scm>
+	<properties>
+		<java.version>17</java.version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<!-- JSON -->
+	    <dependency>
+	        <groupId>com.fasterxml.jackson.core</groupId>
+	        <artifactId>jackson-databind</artifactId>
+	        <version>2.17.0</version>
+	    </dependency>
+
+	    <!-- HTTP-Client -->
+	    <dependency>
+	        <groupId>com.squareup.okhttp3</groupId>
+	        <artifactId>okhttp</artifactId>
+	        <version>4.12.0</version>
+	    </dependency>
+		
+		<dependency>
+		    <groupId>com.yworks</groupId>
+		    <artifactId>yguard</artifactId>
+		    <version>4.1.1</version>
+		    <scope>compile</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<!-- Bestehender Spring Boot Plugin -->
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			
+			<!-- yGuard Plugin -->
+		    <plugin>
+			    <artifactId>maven-antrun-plugin</artifactId>    
+			    <executions>
+			        <execution>
+			            <phase>package</phase>
+			            <goals>
+			                <goal>run</goal>
+			            </goals>
+			            <id>obfuscate</id>
+			            <configuration>
+			                <target>
+					          <property name="runtime_classpath" refid="maven.runtime.classpath"/>
+					          <taskdef name="yguard" classname="com.yworks.yguard.YGuardTask" classpath="${runtime_classpath}"/>
+					          <yguard>
+								  <inoutpair in="${project.build.directory}/${project.build.finalName}.jar"
+                                   			out="${project.build.directory}/${project.build.finalName}_obfuscated.jar" />
+								
+								  <rename logfile="${project.build.directory}/yguard.log.xml"
+								          replaceClassNameStrings="true">
+								    <property name="obfuscation-prefix" value="obf"/>
+								    <keep>
+								      <class classes="private" methods="private" fields="private">
+								        <patternset>
+								          <include name="com/weddingbliss/**"/>
+								        </patternset>
+								      </class>
+								    </keep>
+								  </rename>
+								
+								  <externalclasses>
+								    <pathelement path="${maven.runtime.classpath}" />
+								  </externalclasses>
+					          </yguard>
+					        </target>
+			            </configuration>
+			        </execution>
+			    </executions>
+			</plugin>
+
+		</plugins>
+	</build>
+	
+</project>

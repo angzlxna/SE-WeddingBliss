@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yguard version="1.5">
+<!--
+  yGuard Bytecode Obfuscator, v4.1.1, a Product of yWorks GmbH - http://www.yworks.com
+
+  Logfile created on Wed May 07 16:54:03 CEST 2025
+
+  Jar file to be obfuscated:           weddingbliss-client-0.0.1-SNAPSHOT.jar
+  Target Jar file for obfuscated code: weddingbliss-client-0.0.1-SNAPSHOT_obfuscated.jar
+
+-->
+<!--
+  Memory in use after class data structure built: 22139344 bytes
+  Total memory available                        : 73400320 bytes
+-->
+<!-- WARNING: Unresolved external dependency: okhttp3.Request$Builder not found! -->
+<!-- WARNING: Unresolved external dependency: okhttp3.OkHttpClient not found! -->
+<!-- WARNING: Unresolved external dependency: com.fasterxml.jackson.databind.ObjectMapper not found! -->
+<!-- WARNING: Unresolved external dependency: com.fasterxml.jackson.databind.ObjectMapper not found! -->
+<!-- WARNING: No mapping found: com.fasterxml.jackson.databind.ObjectMapper -->
+<!-- WARNING: No mapping found: okhttp3.MediaType -->
+<!-- WARNING: Unresolved external dependency: okhttp3.MediaType not found! -->
+<!-- WARNING: No mapping found: okhttp3.RequestBody -->
+<!-- WARNING: Unresolved external dependency: okhttp3.MediaType not found! -->
+<!-- WARNING: Unresolved external dependency: okhttp3.RequestBody not found! -->
+<!-- WARNING: No mapping found: okhttp3.Request$Builder -->
+<!-- WARNING: No mapping found: okhttp3.Request$Builder -->
+<!-- WARNING: Unresolved external dependency: okhttp3.Request$Builder not found! -->
+<!-- WARNING: No mapping found: okhttp3.Request$Builder -->
+<!-- WARNING: Unresolved external dependency: okhttp3.RequestBody not found! -->
+<!-- WARNING: Unresolved external dependency: okhttp3.Request$Builder not found! -->
+<!-- WARNING: No mapping found: okhttp3.Request$Builder -->
+<!-- WARNING: Unresolved external dependency: okhttp3.Request not found! -->
+<!-- WARNING: Unresolved external dependency: okhttp3.OkHttpClient not found! -->
+<!-- WARNING: No mapping found: okhttp3.OkHttpClient -->
+<!-- WARNING: Unresolved external dependency: okhttp3.Request not found! -->
+<!-- WARNING: Unresolved external dependency: okhttp3.Call not found! -->
+<!-- WARNING: No mapping found: okhttp3.Call -->
+<!-- WARNING: Unresolved external dependency: okhttp3.Response not found! -->
+<!-- WARNING: No mapping found: okhttp3.Response -->
+<!-- WARNING: No mapping found: okhttp3.OkHttpClient -->
+<!-- WARNING: No mapping found: com.fasterxml.jackson.databind.ObjectMapper -->
+<!-- WARNING: Unresolved external dependency: com.fasterxml.jackson.databind.ObjectMapper not found! -->
+<!-- WARNING: Unresolved external dependency: okhttp3.MediaType not found! -->
+<!-- WARNING: Unresolved external dependency: okhttp3.RequestBody not found! -->
+<!-- WARNING: Unresolved external dependency: okhttp3.Request$Builder not found! -->
+<!-- WARNING: Unresolved external dependency: okhttp3.OkHttpClient not found! -->
+<!-- WARNING: Unresolved external dependency: okhttp3.Call not found! -->
+<!-- WARNING: Unresolved external dependency: okhttp3.Response not found! -->
+<!-- WARNING: Unresolved external dependency: okhttp3.Request not found! -->
+<expose>
+  <class name="com.weddingbliss.client.model.Gast"/>
+  <field class="com.weddingbliss.client.model.Gast" name="allergien"/>
+  <field class="com.weddingbliss.client.model.Gast" name="nachname"/>
+  <field class="com.weddingbliss.client.model.Gast" name="essenswunsch"/>
+  <field class="com.weddingbliss.client.model.Gast" name="nimmtTeil"/>
+  <field class="com.weddingbliss.client.model.Gast" name="vorname"/>
+  <method class="com.weddingbliss.client.model.Gast" name="java.lang.String nachname()"/>
+  <method class="com.weddingbliss.client.model.Gast" name="java.lang.String vorname()"/>
+  <method class="com.weddingbliss.client.model.Gast" name="boolean equals(java.lang.Object)"/>
+  <method class="com.weddingbliss.client.model.Gast" name="boolean nimmtTeil()"/>
+  <method class="com.weddingbliss.client.model.Gast" name="int hashCode()"/>
+  <method class="com.weddingbliss.client.model.Gast" name="java.lang.String allergien()"/>
+  <method class="com.weddingbliss.client.model.Gast" name="java.lang.String essenswunsch()"/>
+  <method class="com.weddingbliss.client.model.Gast" name="java.lang.String toString()"/>
+  <class name="com.weddingbliss.client.ui.BgPanel"/>
+  <field class="com.weddingbliss.client.ui.BgPanel" name="overlay"/>
+  <field class="com.weddingbliss.client.ui.BgPanel" name="bg"/>
+  <method class="com.weddingbliss.client.ui.BgPanel" name="void paintComponent(java.awt.Graphics)"/>
+  <class name="com.weddingbliss.client.GastClientApp"/>
+  <field class="com.weddingbliss.client.GastClientApp" name="client"/>
+  <field class="com.weddingbliss.client.GastClientApp" name="BASE_URL"/>
+  <field class="com.weddingbliss.client.GastClientApp" name="mapper"/>
+  <method class="com.weddingbliss.client.GastClientApp" name="void lambda$main$4(javax.swing.JRadioButton, javax.swing.JRadioButton, javax.swing.JRadioButton, javax.swing.JTextField, javax.swing.JTextField, javax.swing.JTextField, java.awt.CardLayout, javax.swing.JPanel, java.awt.event.ActionEvent)"/>
+  <method class="com.weddingbliss.client.GastClientApp" name="void lambda$main$0(javax.swing.JTextField, javax.swing.JTextField, java.awt.CardLayout, javax.swing.JPanel, java.awt.event.ActionEvent)"/>
+  <method class="com.weddingbliss.client.GastClientApp" name="void lambda$main$3(java.awt.CardLayout, javax.swing.JPanel, java.awt.event.ActionEvent)"/>
+  <method class="com.weddingbliss.client.GastClientApp" name="void sendeGast(com.weddingbliss.client.model.Gast)"/>
+  <method class="com.weddingbliss.client.GastClientApp" name="void lambda$main$1(javax.swing.JRadioButton, java.awt.CardLayout, javax.swing.JPanel, javax.swing.JRadioButton, java.awt.event.ActionEvent)"/>
+  <method class="com.weddingbliss.client.GastClientApp" name="void lambda$main$5(java.awt.event.ActionEvent)"/>
+  <method class="com.weddingbliss.client.GastClientApp" name="boolean istGueltigerName(java.lang.String)"/>
+  <method class="com.weddingbliss.client.GastClientApp" name="void lambda$main$2(java.awt.event.ActionEvent)"/>
+  <method class="com.weddingbliss.client.GastClientApp" name="void main(java.lang.String[])"/>
+  <class name="com.weddingbliss.client.Gast"/>
+  <field class="com.weddingbliss.client.Gast" name="allergien"/>
+  <field class="com.weddingbliss.client.Gast" name="nachname"/>
+  <field class="com.weddingbliss.client.Gast" name="essenswunsch"/>
+  <field class="com.weddingbliss.client.Gast" name="kommt"/>
+  <field class="com.weddingbliss.client.Gast" name="vorname"/>
+</expose>
+<map>
+</map>
+</yguard>

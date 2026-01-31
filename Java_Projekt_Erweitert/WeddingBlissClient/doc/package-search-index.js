@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"Alle Packages","u":"allpackages-index.html"},{"l":"com.weddingbliss.client"},{"l":"com.weddingbliss.client.model"},{"l":"com.weddingbliss.client.ui"}];updateSearchResults();

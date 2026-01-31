@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_9_jRICHIEfC6PeFXThCvYA" name="Usecasediagramm">
+  <ownedComment xmi:type="uml:Comment" xmi:id="_KL9YECHTEfC6PeFXThCvYA">
+    <body>Condition: Bestätigt&#xD;
+extension point: Teilnahme</body>
+  </ownedComment>
+  <ownedComment xmi:type="uml:Comment" xmi:id="_ggLoECHTEfC6PeFXThCvYA">
+    <body>Condition: Abgelehnt &#xD;
+extension point: Teilnahme</body>
+  </ownedComment>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_-AynQCHIEfC6PeFXThCvYA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_spLFECHREfC6PeFXThCvYA" name="Gast">
+    <generalization xmi:type="uml:Generalization" xmi:id="_iowosCHUEfC6PeFXThCvYA" general="_QC-EMCHSEfC6PeFXThCvYA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_QC-EMCHSEfC6PeFXThCvYA" name="Einladungslink erhalten">
+    <include xmi:type="uml:Include" xmi:id="_se22ACHSEfC6PeFXThCvYA" addition="_sem-YCHSEfC6PeFXThCvYA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_sem-YCHSEfC6PeFXThCvYA" name="Vor- und Nachnamen eintragen">
+    <include xmi:type="uml:Include" xmi:id="_3RZ9ICHTEfC6PeFXThCvYA" addition="_ZEfSkCHTEfC6PeFXThCvYA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_VWhzECHTEfC6PeFXThCvYA" name="Angabe Allergien">
+    <extend xmi:type="uml:Extend" xmi:id="_cFYQsCHTEfC6PeFXThCvYA" extendedCase="_ZEfSkCHTEfC6PeFXThCvYA" extensionLocation="_cFY3wCHTEfC6PeFXThCvYA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_ZEfSkCHTEfC6PeFXThCvYA" name="Teilnahme">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_cFY3wCHTEfC6PeFXThCvYA" name="ExtensionPoint1"/>
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_N41AgSHVEfC6PeFXThCvYA" name="ExtensionPoint2"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_rRa9ECHTEfC6PeFXThCvYA" name="Anwendung schließen">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_wOEdQCHTEfC6PeFXThCvYA" name="ExtensionPoint1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_t0xDkCHTEfC6PeFXThCvYA" name="Teilnahme ablehnen">
+    <extend xmi:type="uml:Extend" xmi:id="_wOD2MCHTEfC6PeFXThCvYA" extendedCase="_rRa9ECHTEfC6PeFXThCvYA" extensionLocation="_wOEdQCHTEfC6PeFXThCvYA"/>
+  </packagedElement>
+</uml:Model>
